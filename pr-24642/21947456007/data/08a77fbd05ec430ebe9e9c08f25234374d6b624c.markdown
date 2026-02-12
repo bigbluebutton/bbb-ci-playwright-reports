@@ -1,0 +1,86 @@
+# Page snapshot
+
+```yaml
+- main [ref=e3]:
+  - document [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - button "Profile" [ref=e10] [cursor=pointer]:
+            - generic [ref=e11]: 
+          - button "Participants" [ref=e12] [cursor=pointer]:
+            - generic [ref=e13]: 
+            - generic [ref=e15]: "1"
+          - button "Messages" [expanded] [ref=e16] [cursor=pointer]:
+            - generic [ref=e17]: 
+          - button "Shared Notes" [ref=e18] [cursor=pointer]:
+            - generic [ref=e19]: 
+        - generic [ref=e20]:
+          - button "Apps Gallery" [ref=e21] [cursor=pointer]:
+            - generic [ref=e22]: 
+          - button "Breakout Rooms" [ref=e23] [cursor=pointer]:
+            - generic [ref=e24]: 
+          - button "Polling" [ref=e25] [cursor=pointer]:
+            - generic [ref=e26]: 
+          - button "Timer and Stopwatch" [ref=e27] [cursor=pointer]:
+            - generic [ref=e28]: 
+        - generic [ref=e29]:
+          - button "Learning Analytics Dashboard" [ref=e30] [cursor=pointer]:
+            - generic [ref=e31]: 
+          - button "Settings" [ref=e32] [cursor=pointer]:
+            - generic [ref=e33]: 
+      - generic [ref=e36]:
+        - heading "Messages" [level=2] [ref=e37]
+        - generic [ref=e38]:
+          - heading "Messages" [level=2] [ref=e39]
+          - button "Chat options" [ref=e42] [cursor=pointer]:
+            - generic [ref=e44]: 
+          - button "Minimize Messages" [ref=e46] [cursor=pointer]:
+            - generic [ref=e48]: 
+        - separator [ref=e49]
+        - generic [ref=e50]:
+          - list [ref=e53]:
+            - listitem [ref=e55]:
+              - paragraph [ref=e58]:
+                - generic [ref=e59]: 
+                - text: Moderator is now the presenter
+          - generic [ref=e63]:
+            - textbox "Message input for chat Public Chat" [ref=e64]:
+              - /placeholder: Message Public Chat
+            - button "Send message" [ref=e66] [cursor=pointer]:
+              - img [ref=e67]
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - heading "random-3656618 " [level=1] [ref=e75] [cursor=pointer]:
+            - generic [ref=e76]:
+              - text: random-3656618
+              - generic [ref=e77]: 
+          - generic [ref=e78]:
+            - heading "Session control" [level=2] [ref=e79]
+            - button "View users' connection status" [ref=e81] [cursor=pointer]
+            - button "Leave" [ref=e91] [cursor=pointer]:
+              - generic [ref=e92]: 
+            - button "Options" [ref=e94] [cursor=pointer]:
+              - generic [ref=e96]: 
+        - heading "Talking people" [level=2] [ref=e97]
+      - region "Notifications Alt+T"
+      - region "Actions bar" [ref=e98]:
+        - heading "Actions bar" [level=2] [ref=e99]
+        - generic [ref=e100]:
+          - generic [ref=e101]:
+            - button "Join audio" [ref=e103] [cursor=pointer]:
+              - generic [ref=e105]: 
+            - button "Share webcam" [ref=e107] [cursor=pointer]:
+              - generic [ref=e109]: 
+            - button "Share your screen" [ref=e111] [cursor=pointer]:
+              - generic [ref=e113]: 
+            - button "Share a reaction" [ref=e116] [cursor=pointer]:
+              - generic [ref=e118]: 
+            - button "Raise your hand" [ref=e119] [cursor=pointer]:
+              - generic [ref=e121]: 
+          - generic [ref=e123]:
+            - button "Restore presentation" [ref=e124] [cursor=pointer]:
+              - generic [ref=e126]: 
+            - button "Media Area" [ref=e128] [cursor=pointer]:
+              - generic [ref=e130]: 
+```
