@@ -1,0 +1,134 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - main [ref=e3]:
+    - document [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - button [ref=e10] [cursor=pointer]:
+              - generic [ref=e11]: 
+            - button [expanded] [ref=e12] [cursor=pointer]:
+              - generic [ref=e13]: 
+              - generic [ref=e15]: "2"
+            - button [ref=e16] [cursor=pointer]:
+              - generic [ref=e17]: 
+            - button [ref=e18] [cursor=pointer]:
+              - generic [ref=e19]: 
+          - generic [ref=e20]:
+            - button [ref=e21] [cursor=pointer]:
+              - generic [ref=e22]: 
+            - button [ref=e23] [cursor=pointer]:
+              - generic [ref=e24]: 
+          - generic [ref=e25]:
+            - button [ref=e26] [cursor=pointer]:
+              - generic [ref=e27]: 
+            - button [ref=e28] [cursor=pointer]:
+              - generic [ref=e29]: 
+        - generic [ref=e32]:
+          - text:  
+          - generic [ref=e33]:
+            - generic [ref=e34]:
+              - heading [level=2] [ref=e35]: Users (2)
+              - button [ref=e37] [cursor=pointer]:
+                - generic [ref=e39]: 
+              - button [ref=e41] [cursor=pointer]:
+                - generic [ref=e43]: 
+            - separator [ref=e44]
+            - list [ref=e46]:
+              - list [ref=e47]:
+                - listitem [ref=e48]:
+                  - listitem [ref=e49]:
+                    - generic [ref=e52]:
+                      - generic [ref=e54]: Moderator (You)
+                      - generic [ref=e55]: Presenter | Moderator
+                - listitem [ref=e56]:
+                  - listitem [ref=e57]:
+                    - generic [ref=e62]: Attendee
+                    - generic [ref=e63]:
+                      - generic [ref=e65] [cursor=pointer]: 
+                      - generic [ref=e67] [cursor=pointer]: 
+                      - generic [ref=e68]: "|"
+                      - generic [ref=e71] [cursor=pointer]: 
+            - separator [ref=e72]
+            - generic [ref=e73]:
+              - generic [ref=e74]:
+                - generic [ref=e75]: Mute all users except presenter
+                - button [ref=e76] [cursor=pointer]:
+                  - generic [ref=e77]: 
+              - generic [ref=e78]:
+                - generic [ref=e79]: Restrictions and Policies
+                - button [ref=e80] [cursor=pointer]:
+                  - generic [ref=e81]: 
+        - generic [ref=e83]:
+          - generic [ref=e84]:
+            - heading [level=1] [ref=e87] [cursor=pointer]:
+              - generic [ref=e88]:
+                - text: random-5656187
+                - generic [ref=e89]: 
+            - generic [ref=e90]:
+              - heading [level=2] [ref=e91]: Session control
+              - button [ref=e93] [cursor=pointer]
+              - button [ref=e103] [cursor=pointer]:
+                - generic [ref=e104]: 
+              - button [ref=e106] [cursor=pointer]:
+                - generic [ref=e108]: 
+          - heading [level=2] [ref=e109]: Talking people
+        - region [ref=e111]:
+          - heading [level=2] [ref=e112]: Cameras
+          - generic [ref=e114]:
+            - generic [ref=e121]: Attendee
+            - generic [ref=e131]: Moderator (You)
+        - region [ref=e135]:
+          - heading [level=2] [ref=e136]: Actions bar
+          - generic [ref=e137]:
+            - generic [ref=e138]:
+              - button [ref=e140] [cursor=pointer]:
+                - generic [ref=e142]: 
+              - button [ref=e144] [cursor=pointer]:
+                - generic [ref=e146]: 
+              - button [ref=e148] [cursor=pointer]:
+                - generic [ref=e150]: 
+              - button [ref=e153] [cursor=pointer]:
+                - generic [ref=e155]: 
+              - button [ref=e156] [cursor=pointer]:
+                - generic [ref=e158]: 
+            - generic [ref=e160]:
+              - button [ref=e161] [cursor=pointer]:
+                - generic [ref=e163]: 
+              - button [ref=e165] [cursor=pointer]:
+                - generic [ref=e167]: 
+  - dialog "Restrictions and Policies" [active] [ref=e169]:
+    - generic [ref=e170]:
+      - banner [ref=e171]:
+        - heading "Restrictions and Policies" [level=2] [ref=e172]
+        - button "Close Restrictions and Policies" [ref=e173] [cursor=pointer]:
+          - generic [ref=e175]: 
+      - generic [ref=e176]:
+        - tablist [ref=e177]:
+          - tab " Guest Policy" [selected] [ref=e178] [cursor=pointer]:
+            - generic [ref=e179]: 
+            - generic [ref=e180]: Guest Policy
+          - tab " Participant Permissions" [ref=e181] [cursor=pointer]:
+            - generic [ref=e182]: 
+            - generic [ref=e183]: Participant Permissions
+          - tab " Presentation Permissions" [ref=e184] [cursor=pointer]:
+            - generic [ref=e185]: 
+            - generic [ref=e186]: Presentation Permissions
+        - tabpanel " Guest Policy" [ref=e187]:
+          - generic [ref=e188]:
+            - heading "Guest Policy" [level=3] [ref=e189]
+            - paragraph [ref=e190]: Configure how guests are handled when trying to join the meeting.
+            - generic [ref=e191]:
+              - combobox [ref=e192] [cursor=pointer]: Always accept
+              - textbox: ALWAYS_ACCEPT
+              - img
+              - group
+            - generic [ref=e194]:
+              - checkbox [ref=e197] [cursor=pointer]
+              - generic [ref=e200] [cursor=pointer]: Message to the guests' lobby
+        - generic [ref=e201]:
+          - button "Cancel" [ref=e202] [cursor=pointer]
+          - button "Apply" [ref=e203] [cursor=pointer]
+```
