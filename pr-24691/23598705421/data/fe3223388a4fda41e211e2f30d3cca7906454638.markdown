@@ -1,0 +1,124 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]: New message from Public Chat
+  - main [ref=e3]:
+    - document [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - button "Profile" [ref=e10] [cursor=pointer]:
+              - generic [ref=e11]: 
+            - button "Participants" [ref=e12] [cursor=pointer]:
+              - generic [ref=e13]: 
+              - generic [ref=e15]: "1"
+            - button "Shared Notes" [ref=e16] [cursor=pointer]:
+              - generic [ref=e17]: 
+          - generic [ref=e18]:
+            - button "Apps Gallery" [ref=e19] [cursor=pointer]:
+              - generic [ref=e20]: 
+            - button "Breakout Rooms" [expanded] [active] [ref=e21] [cursor=pointer]:
+              - generic [ref=e22]: 
+            - button "Polling" [ref=e23] [cursor=pointer]:
+              - generic [ref=e24]: 
+            - button "Timer and Stopwatch" [ref=e25] [cursor=pointer]:
+              - generic [ref=e26]: 
+          - generic [ref=e27]:
+            - button "Learning Analytics Dashboard" [ref=e28] [cursor=pointer]:
+              - generic [ref=e29]: 
+            - button "Settings" [ref=e30] [cursor=pointer]:
+              - generic [ref=e31]: 
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - heading "Breakout Rooms" [level=2] [ref=e37]
+            - button "Cancel" [ref=e39] [cursor=pointer]:
+              - generic [ref=e41]: 
+          - separator [ref=e42]
+          - generic [ref=e43]:
+            - generic [ref=e44]: Duration of Breakout Rooms
+            - generic [ref=e45]:
+              - spinbutton "Hours" [ref=e46]: "00"
+              - generic [ref=e47]: ":"
+              - spinbutton "Minutes" [ref=e48]: "15"
+              - generic [ref=e49]: ":"
+              - spinbutton "Seconds" [ref=e50]: "00"
+          - separator [ref=e51]
+          - generic [ref=e52]:
+            - generic [ref=e53]:
+              - button "Decrease rooms" [disabled] [ref=e54]: ‹
+              - generic [ref=e55]: "02"
+              - button "Increase rooms" [ref=e56] [cursor=pointer]: ›
+            - button "Assigns users randomly to breakout rooms" [ref=e57] [cursor=pointer]:
+              - generic [ref=e58]: 
+          - button "More Options" [ref=e59] [cursor=pointer]:
+            - img [ref=e61]
+            - text: More Options
+          - generic:
+            - generic [ref=e63] [cursor=pointer]:
+              - checkbox "Allow users to choose rooms" [ref=e66]
+              - text: Allow users to choose rooms
+            - generic [ref=e69] [cursor=pointer]:
+              - checkbox "Save whiteboard" [ref=e72]
+              - text: Save whiteboard
+            - generic [ref=e75] [cursor=pointer]:
+              - checkbox "Save shared notes" [ref=e78]
+              - text: Save shared notes
+            - generic [ref=e81] [cursor=pointer]:
+              - checkbox "Send invitation to assigned moderators" [ref=e84]
+              - text: Send invitation to assigned moderators
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - generic [ref=e89]: ℹ
+              - generic [ref=e90]:
+                - strong [ref=e91]: Did you know?
+                - text: You need to drag the names of the users to add them to a Group Room.
+                - button "Got it!" [ref=e92] [cursor=pointer]
+              - button "✕" [ref=e93] [cursor=pointer]
+            - generic [ref=e95]:
+              - generic [ref=e96]: Unassigned Users
+              - generic [ref=e97]: "00"
+            - generic [ref=e98]:
+              - generic [ref=e100]:
+                - generic [ref=e101] [cursor=pointer]: Room 1
+                - generic [ref=e102]:
+                  - generic [ref=e103]: "00"
+                  - generic [ref=e105]: 
+              - generic [ref=e107]:
+                - generic [ref=e108] [cursor=pointer]: Room 2
+                - generic [ref=e109]:
+                  - generic [ref=e110]: "00"
+                  - generic [ref=e112]: 
+          - button "Start" [disabled] [ref=e114]
+        - generic [ref=e116]:
+          - generic [ref=e117]:
+            - heading "random-1678288 " [level=1] [ref=e120] [cursor=pointer]:
+              - generic [ref=e121]:
+                - text: random-1678288
+                - generic [ref=e122]: 
+            - generic [ref=e123]:
+              - heading "Session control" [level=2] [ref=e124]
+              - button "View users' connection status" [ref=e126] [cursor=pointer]
+              - button "Leave" [ref=e136] [cursor=pointer]:
+                - generic [ref=e137]: 
+              - button "Options" [ref=e139] [cursor=pointer]:
+                - generic [ref=e141]: 
+          - heading "Talking people" [level=2] [ref=e142]
+        - region "Notifications Alt+T"
+        - region "Actions bar" [ref=e143]:
+          - heading "Actions bar" [level=2] [ref=e144]
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - button "Join audio" [ref=e148] [cursor=pointer]:
+                - generic [ref=e150]: 
+              - button "Share webcam" [ref=e152] [cursor=pointer]:
+                - generic [ref=e154]: 
+              - button "Share your screen" [ref=e156] [cursor=pointer]:
+                - generic [ref=e158]: 
+              - button "Share a reaction" [ref=e161] [cursor=pointer]:
+                - generic [ref=e163]: 
+              - button "Raise your hand" [ref=e164] [cursor=pointer]:
+                - generic [ref=e166]: 
+            - button "Media Area" [ref=e169] [cursor=pointer]:
+              - generic [ref=e171]: 
+```
