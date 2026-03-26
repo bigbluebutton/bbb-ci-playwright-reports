@@ -1,7 +1,0 @@
-# Page snapshot
-
-```yaml
-- main [ref=e3]:
-  - document [ref=e4]:
-    - heading "Oops, something went wrong" [level=1] [ref=e6]
-```
