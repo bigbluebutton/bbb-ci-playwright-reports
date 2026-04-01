@@ -1,0 +1,138 @@
+# Page snapshot
+
+```yaml
+- main [ref=e3]:
+  - document [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - button "Profile" [ref=e10] [cursor=pointer]:
+            - generic [ref=e11]: 
+          - button "Participants" [ref=e12] [cursor=pointer]:
+            - generic [ref=e13]: 
+            - generic [ref=e15]: "2"
+          - button "Messages" [ref=e16] [cursor=pointer]:
+            - generic [ref=e17]: 
+          - button "Shared Notes" [ref=e18] [cursor=pointer]:
+            - generic [ref=e19]: 
+        - generic [ref=e20]:
+          - button "Apps Gallery" [ref=e21] [cursor=pointer]:
+            - generic [ref=e22]: 
+          - button "Breakout Rooms" [ref=e23] [cursor=pointer]:
+            - generic [ref=e24]: 
+          - button "Polling" [ref=e25] [cursor=pointer]:
+            - generic [ref=e26]: 
+          - button "Timer and Stopwatch" [ref=e27] [cursor=pointer]:
+            - generic [ref=e28]: 
+        - generic [ref=e29]:
+          - button "Learning Analytics Dashboard" [ref=e30] [cursor=pointer]:
+            - generic [ref=e31]: 
+          - button "Settings" [ref=e32] [cursor=pointer]:
+            - generic [ref=e33]: 
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - heading "random-3082470 " [level=1] [ref=e38] [cursor=pointer]:
+            - generic [ref=e39]:
+              - text: random-3082470
+              - generic [ref=e40]: 
+          - generic [ref=e41]:
+            - heading "Session control" [level=2] [ref=e42]
+            - button "View users' connection status" [ref=e44] [cursor=pointer]
+            - button "Leave" [ref=e54] [cursor=pointer]:
+              - generic [ref=e55]: 
+            - button "Options" [ref=e57] [cursor=pointer]:
+              - generic [ref=e59]: 
+        - heading "Talking people" [level=2] [ref=e60]
+      - region [ref=e61]:
+        - heading "Presentation area" [level=2] [ref=e62]
+        - generic [ref=e64]:
+          - generic [ref=e65]:
+            - generic [ref=e66]: Slide content start Hello World! Slide content end
+            - generic [ref=e67]:
+              - button "Undo" [ref=e68] [cursor=pointer]
+              - button "Redo" [ref=e70] [cursor=pointer]
+            - button "Whiteboard Options" [ref=e74] [cursor=pointer]:
+              - img [ref=e75]
+            - generic [ref=e78]:
+              - generic [ref=e79]:
+                - img
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic [ref=e84]:
+                          - button "tool.select" [ref=e85] [cursor=pointer]
+                          - button "tool.hand" [ref=e87] [cursor=pointer]
+                          - button "tool.highlight" [ref=e89] [cursor=pointer]
+                          - button "tool.draw" [ref=e91] [cursor=pointer]
+                          - button "tool.eraser" [ref=e93] [cursor=pointer]
+                          - button "tool.arrow" [ref=e95] [cursor=pointer]
+                          - button "tool.text" [ref=e97] [cursor=pointer]
+                          - button "tool.note" [ref=e99] [cursor=pointer]
+                          - button "More" [ref=e101] [cursor=pointer]
+                          - button "Actions" [ref=e104] [cursor=pointer]
+                        - button "Styles" [ref=e108] [cursor=pointer]
+          - generic [ref=e110]:
+            - generic [ref=e112]:
+              - button "Previous slide" [disabled] [ref=e113] [cursor=pointer]:
+                - generic [ref=e115]: 
+              - combobox "Skip slide" [ref=e116] [cursor=pointer]:
+                - option "Slide 1" [selected]
+              - button "Next slide" [disabled] [ref=e117] [cursor=pointer]:
+                - generic [ref=e119]: 
+            - generic [ref=e120]:
+              - button "Turn multi-user whiteboard on" [ref=e121] [cursor=pointer]:
+                - generic [ref=e123]: 
+              - button "Zoom out" [ref=e125]:
+                - button "Zoom out" [disabled] [ref=e126] [cursor=pointer]:
+                  - generic [ref=e128]: 
+              - button "Reset Zoom" [disabled] [ref=e130]: 100%
+              - button "Zoom in 125%" [ref=e131]:
+                - button "Zoom in 125%" [ref=e132] [cursor=pointer]:
+                  - generic [ref=e134]: 
+              - button "Presentation Fit to width" [ref=e135] [cursor=pointer]:
+                - generic [ref=e137]: 
+      - region "Notifications Alt+T"
+      - region "Actions bar" [ref=e138]:
+        - heading "Actions bar" [level=2] [ref=e139]
+        - generic [ref=e140]:
+          - generic [ref=e141]:
+            - button "Join audio" [ref=e143] [cursor=pointer]:
+              - generic [ref=e145]: 
+            - button "Share webcam" [ref=e147] [cursor=pointer]:
+              - generic [ref=e149]: 
+            - button "Share your screen" [ref=e151] [cursor=pointer]:
+              - generic [ref=e153]: 
+            - button "Share a reaction" [ref=e156] [cursor=pointer]:
+              - generic [ref=e158]: 
+            - button "Raise your hand" [ref=e159] [cursor=pointer]:
+              - generic [ref=e161]: 
+          - generic [ref=e163]:
+            - button "Minimize presentation" [ref=e164] [cursor=pointer]:
+              - generic [ref=e166]: 
+            - button "Media Area" [ref=e168] [cursor=pointer]:
+              - generic [ref=e170]: 
+            - generic [ref=e172]:
+              - generic [ref=e173]:
+                - heading "Media Sharing" [level=2] [ref=e174]
+                - button [ref=e175] [cursor=pointer]:
+                  - img [ref=e176]
+              - generic [ref=e179]:
+                - generic [ref=e180]:
+                  - button "" [ref=e181] [cursor=pointer]:
+                    - generic [ref=e183]: 
+                  - generic [ref=e184]: Screen share
+                - generic [ref=e185]:
+                  - button "" [ref=e186] [cursor=pointer]:
+                    - generic [ref=e188]: 
+                  - generic [ref=e189]: Slides
+                - generic [ref=e190]:
+                  - button "" [ref=e191] [cursor=pointer]:
+                    - generic [ref=e193]: 
+                  - generic [ref=e194]: Play video from link
+                - generic [ref=e195]:
+                  - button "" [ref=e196] [cursor=pointer]:
+                    - generic [ref=e198]: 
+                  - generic [ref=e199]: Share camera as content
+```
