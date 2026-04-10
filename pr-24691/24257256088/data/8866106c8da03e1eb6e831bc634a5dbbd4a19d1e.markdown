@@ -1,0 +1,94 @@
+# Page snapshot
+
+```yaml
+- main [ref=e3]:
+  - document [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - button "Profile" [ref=e10] [cursor=pointer]:
+            - generic [ref=e11]: 
+          - button "Participants" [ref=e12] [cursor=pointer]:
+            - generic [ref=e13]: 
+            - generic [ref=e15]: "1"
+          - button "Messages" [expanded] [ref=e16] [cursor=pointer]:
+            - generic [ref=e17]: 
+          - button "Shared Notes" [ref=e18] [cursor=pointer]:
+            - generic [ref=e19]: 
+        - generic [ref=e20]:
+          - button "Apps Gallery" [ref=e21] [cursor=pointer]:
+            - generic [ref=e22]: 
+          - button "Breakout Rooms" [ref=e23] [cursor=pointer]:
+            - generic [ref=e24]: 
+          - button "Polling" [ref=e25] [cursor=pointer]:
+            - generic [ref=e26]: 
+          - button "Timer and Stopwatch" [ref=e27] [cursor=pointer]:
+            - generic [ref=e28]: 
+        - generic [ref=e29]:
+          - button "Learning Analytics Dashboard" [ref=e30] [cursor=pointer]:
+            - generic [ref=e31]: 
+          - button "Settings" [ref=e32] [cursor=pointer]:
+            - generic [ref=e33]: 
+      - generic [ref=e36]:
+        - heading "Messages" [level=2] [ref=e37]
+        - generic [ref=e38]:
+          - heading "Messages" [level=2] [ref=e39]
+          - button "Chat options" [ref=e42] [cursor=pointer]:
+            - generic [ref=e44]: 
+          - button "Minimize Messages" [ref=e46] [cursor=pointer]:
+            - generic [ref=e48]: 
+        - separator [ref=e49]
+        - generic [ref=e50]:
+          - list [ref=e53]:
+            - listitem [ref=e55]:
+              - paragraph [ref=e58]:
+                - generic [ref=e59]: 
+                - text: Moderator is now the presenter
+          - generic [ref=e63]:
+            - textbox "Message input for chat Public Chat" [active] [ref=e64]:
+              - /placeholder: Message Public Chat
+            - button "Send message" [ref=e66] [cursor=pointer]:
+              - img [ref=e67]
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - heading "random-4857557 " [level=1] [ref=e75] [cursor=pointer]:
+            - generic [ref=e76]:
+              - text: random-4857557
+              - generic [ref=e77]: 
+          - generic [ref=e78]:
+            - heading "Session control" [level=2] [ref=e79]
+            - button "Start recording" [ref=e82]:
+              - img [ref=e84]
+              - generic [ref=e88]:
+                - generic [ref=e89]: Not recording
+                - generic [ref=e90]: Start recording
+            - button "View users' connection status" [ref=e92] [cursor=pointer]
+            - button "Leave" [ref=e102] [cursor=pointer]:
+              - generic [ref=e103]: 
+            - button "Options" [ref=e105] [cursor=pointer]:
+              - generic [ref=e107]: 
+        - heading "Talking people" [level=2] [ref=e108]
+      - region [ref=e110]:
+        - heading "Cameras" [level=2] [ref=e111]
+        - generic [ref=e120]: Moderator (You)
+      - region "Notifications Alt+T"
+      - region "Actions bar" [ref=e124]:
+        - heading "Actions bar" [level=2] [ref=e125]
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - button "Join audio" [ref=e129] [cursor=pointer]:
+              - generic [ref=e131]: 
+            - button "Share webcam" [ref=e133] [cursor=pointer]:
+              - generic [ref=e135]: 
+            - button "Share your screen" [ref=e137] [cursor=pointer]:
+              - generic [ref=e139]: 
+            - button "Share a reaction" [ref=e142] [cursor=pointer]:
+              - generic [ref=e144]: 
+            - button "Raise your hand" [ref=e145] [cursor=pointer]:
+              - generic [ref=e147]: 
+          - generic [ref=e149]:
+            - button "Restore presentation" [ref=e150] [cursor=pointer]:
+              - generic [ref=e152]: 
+            - button "Media Area" [ref=e154] [cursor=pointer]:
+              - generic [ref=e156]: 
+```
