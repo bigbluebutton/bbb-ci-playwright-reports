@@ -1,0 +1,177 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - main [ref=e3]:
+    - document [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - button [ref=e10] [cursor=pointer]:
+              - generic [ref=e11]: 
+            - button [ref=e12] [cursor=pointer]:
+              - generic [ref=e13]: 
+              - generic [ref=e15]: "2"
+            - button [expanded] [ref=e16] [cursor=pointer]:
+              - generic [ref=e17]: 
+            - button [ref=e18] [cursor=pointer]:
+              - generic [ref=e19]: 
+          - generic [ref=e20]:
+            - button [ref=e21] [cursor=pointer]:
+              - generic [ref=e22]: 
+            - button [ref=e23] [cursor=pointer]:
+              - generic [ref=e24]: 
+            - button [ref=e25] [cursor=pointer]:
+              - generic [ref=e26]: 
+            - button [ref=e27] [cursor=pointer]:
+              - generic [ref=e28]: 
+          - generic [ref=e29]:
+            - button [ref=e30] [cursor=pointer]:
+              - generic [ref=e31]: 
+            - button [ref=e32] [cursor=pointer]:
+              - generic [ref=e33]: 
+        - generic [ref=e36]:
+          - heading [level=2] [ref=e37]: Messages
+          - generic [ref=e38]:
+            - heading [level=2] [ref=e39]: Messages
+            - button [ref=e42] [cursor=pointer]:
+              - generic [ref=e44]: 
+            - button [ref=e46] [cursor=pointer]:
+              - generic [ref=e48]: 
+          - separator [ref=e49]
+          - generic [ref=e50]:
+            - list [ref=e53]:
+              - listitem [ref=e55]:
+                - paragraph [ref=e58]:
+                  - generic [ref=e59]: 
+                  - text: Moderator is now the presenter
+            - button [ref=e61] [cursor=pointer]:
+              - generic [ref=e62]: 
+            - generic [ref=e65]:
+              - textbox [ref=e66]:
+                - /placeholder: Message Public Chat
+              - button [ref=e68] [cursor=pointer]:
+                - img [ref=e69]
+        - generic [ref=e73]:
+          - generic [ref=e74]:
+            - heading [level=1] [ref=e77] [cursor=pointer]:
+              - generic [ref=e78]:
+                - text: random-9186387
+                - generic [ref=e79]: 
+            - generic [ref=e80]:
+              - heading [level=2] [ref=e81]: Session control
+              - button [ref=e83] [cursor=pointer]
+              - button [ref=e93] [cursor=pointer]:
+                - generic [ref=e94]: 
+              - button [ref=e96] [cursor=pointer]:
+                - generic [ref=e98]: 
+          - heading [level=2] [ref=e99]: Talking people
+        - region [ref=e101]:
+          - heading [level=2] [ref=e102]: Cameras
+          - generic [ref=e104]:
+            - generic [ref=e111]: Attendee
+            - generic [ref=e121]: Moderator (You)
+        - region [ref=e125]:
+          - heading [level=2] [ref=e126]: Actions bar
+          - generic [ref=e127]:
+            - generic [ref=e128]:
+              - button [ref=e130] [cursor=pointer]:
+                - generic [ref=e132]: 
+              - button [ref=e134] [cursor=pointer]:
+                - generic [ref=e136]: 
+              - button [ref=e138] [cursor=pointer]:
+                - generic [ref=e140]: 
+              - button [ref=e143] [cursor=pointer]:
+                - generic [ref=e145]: 
+              - button [ref=e146] [cursor=pointer]:
+                - generic [ref=e148]: 
+            - generic [ref=e150]:
+              - button [ref=e151] [cursor=pointer]:
+                - generic [ref=e153]: 
+              - button [ref=e155] [cursor=pointer]:
+                - generic [ref=e157]: 
+  - dialog "Breakout Rooms" [active] [ref=e159]:
+    - generic [ref=e160]:
+      - banner [ref=e161]:
+        - heading "Breakout Rooms" [level=2] [ref=e162]
+        - button "Close Breakout Rooms" [ref=e163] [cursor=pointer]:
+          - generic [ref=e165]: 
+      - generic [ref=e166]:
+        - separator [ref=e167]
+        - generic [ref=e168]:
+          - generic [ref=e169]:
+            - generic [ref=e170]:
+              - paragraph [ref=e171]: Complete the steps below to create breakout rooms in your session. To add participants to a room, simply drag their name to the desired room.
+              - generic [ref=e172]:
+                - generic [ref=e173]:
+                  - paragraph [ref=e174]: Number of rooms
+                  - combobox "Number of rooms" [ref=e175]:
+                    - option "2" [selected]
+                    - option "3"
+                    - option "4"
+                    - option "5"
+                    - option "6"
+                    - option "7"
+                    - option "8"
+                    - option "9"
+                    - option "10"
+                    - option "11"
+                    - option "12"
+                    - option "13"
+                    - option "14"
+                    - option "15"
+                    - option "16"
+                - generic [ref=e176]:
+                  - paragraph [ref=e177]: Duration (minutes)
+                  - spinbutton "Duration (minutes)" [ref=e178]: "15"
+                - generic [ref=e179]:
+                  - paragraph [ref=e180]: Randomly assign
+                  - button "Assigns users randomly to breakout rooms" [ref=e181] [cursor=pointer]:
+                    - generic [ref=e182]: 
+              - generic [ref=e183]:
+                - generic [ref=e184]:
+                  - generic "Allow users to choose rooms" [ref=e186] [cursor=pointer]:
+                    - checkbox "Allow users to choose rooms" [ref=e187]
+                  - generic [ref=e190]: Allow users to choose rooms
+                - generic [ref=e191]:
+                  - generic "Save whiteboard" [ref=e193] [cursor=pointer]:
+                    - checkbox "Save whiteboard" [ref=e194]
+                  - generic [ref=e197]: Save whiteboard
+                - generic [ref=e198]:
+                  - generic "Save shared notes" [ref=e200] [cursor=pointer]:
+                    - checkbox "Save shared notes" [ref=e201]
+                  - generic [ref=e204]: Save shared notes
+                - generic [ref=e205]:
+                  - generic "Send invitation to assigned moderators" [ref=e207] [cursor=pointer]:
+                    - checkbox "Send invitation to assigned moderators" [ref=e208]
+                  - generic [ref=e211]: Send invitation to assigned moderators
+            - separator [ref=e212]
+            - generic [ref=e213]: You must place at least one user in a breakout room.
+            - generic [ref=e214]:
+              - alert [ref=e215]:
+                - textbox [ref=e217]: Not assigned (2)
+                - generic [ref=e218]:
+                  - paragraph [ref=e219] [cursor=pointer]:
+                    - generic [ref=e220]: Moderator (You)
+                  - paragraph [ref=e221] [cursor=pointer]:
+                    - generic [ref=e222]: Attendee
+              - generic [ref=e223]:
+                - generic [ref=e224]:
+                  - generic [ref=e225]:
+                    - textbox [ref=e226]: Room 1
+                    - generic [ref=e227]: Updates breakout room name
+                  - combobox [ref=e229]:
+                    - option "Current slide" [selected]
+                    - option "default.pdf"
+                - generic [ref=e231]:
+                  - generic [ref=e232]:
+                    - textbox [ref=e233]: Room 2
+                    - generic [ref=e234]: Updates breakout room name
+                  - combobox [ref=e236]:
+                    - option "Current slide" [selected]
+                    - option "default.pdf"
+          - separator [ref=e238]
+          - generic [ref=e239]:
+            - button "Cancel" [ref=e240] [cursor=pointer]
+            - button "Create" [disabled] [ref=e241]
+```
