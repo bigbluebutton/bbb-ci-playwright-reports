@@ -1,0 +1,115 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: New message from Public Chat
+  - main [ref=e3]:
+    - document [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - heading "random-2123561" [level=1] [ref=e9]:
+              - button "random-2123561" [ref=e10] [cursor=pointer]:
+                - text: random-2123561
+                - generic [ref=e11]: 
+            - generic [ref=e12]:
+              - heading "Session control" [level=2] [ref=e13]
+              - button "View users' connection status" [ref=e15] [cursor=pointer]
+              - button "Leave" [ref=e24]:
+                - button "Leave" [ref=e25] [cursor=pointer]:
+                  - generic [ref=e26]: 
+              - button "Options" [ref=e27]:
+                - button "Options" [ref=e28] [cursor=pointer]:
+                  - generic [ref=e30]: 
+          - heading "Talking people" [level=2] [ref=e31]
+        - region [ref=e32]:
+          - heading "Presentation area" [level=2] [ref=e33]
+          - generic [ref=e35]:
+            - generic [ref=e36]:
+              - generic [ref=e37]: "Slide content start Welcome To BigBlueButton BigBlueButton is an open source web conferencing system designed for online learning CHAT WEBCAMS AUDIO BREAKOUT ROOMS ! Send public and private \" Hold visual meetings. % Communicate using high ( Form teams of users for messages. quality audio. group work. t POLLING EMOJIS SCREEN SHARING MULTI-USER WHITEBOARD # Poll your users anytime. & Express yourself. $ Share your screen. ' Draw together. For more information visit bigbluebutton.org ➔ Slide content end"
+              - generic [ref=e38]:
+                - button "Undo" [ref=e39] [cursor=pointer]
+                - button "Redo" [ref=e41] [cursor=pointer]
+              - button "Whiteboard Whiteboard options" [ref=e44] [cursor=pointer]:
+                - button "Whiteboard Whiteboard options" [ref=e45]:
+                  - img [ref=e46]
+              - generic [ref=e49]:
+                - generic [ref=e50]:
+                  - img
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic [ref=e55]:
+                            - button "tool.select" [ref=e56] [cursor=pointer]
+                            - button "tool.hand" [ref=e58] [cursor=pointer]
+                            - button "tool.highlight" [ref=e60] [cursor=pointer]
+                            - button "tool.draw" [ref=e62] [cursor=pointer]
+                            - button "tool.eraser" [ref=e64] [cursor=pointer]
+                            - button "tool.arrow" [ref=e66] [cursor=pointer]
+                            - button "tool.text" [ref=e68] [cursor=pointer]
+                            - button "tool.note" [ref=e70] [cursor=pointer]
+                            - button "tool.rectangle" [ref=e72] [cursor=pointer]
+                            - button "tool.ellipse" [ref=e74] [cursor=pointer]
+                            - button "More" [ref=e76] [cursor=pointer]
+                            - button "Actions" [ref=e79] [cursor=pointer]
+                          - button "Styles" [ref=e83] [cursor=pointer]
+            - generic [ref=e85]:
+              - generic [ref=e87]:
+                - button "Previous slide" [disabled] [ref=e88] [cursor=pointer]:
+                  - generic [ref=e90]: 
+                - combobox "Skip slide" [ref=e91] [cursor=pointer]:
+                  - option "Slide 1" [selected]
+                  - option "Slide 2"
+                  - option "Slide 3"
+                  - option "Slide 4"
+                  - option "Slide 5"
+                  - option "Slide 6"
+                  - option "Slide 7"
+                  - option "Slide 8"
+                  - option "Slide 9"
+                  - option "Slide 10"
+                  - option "Slide 11"
+                  - option "Slide 12"
+                  - option "Slide 13"
+                  - option "Slide 14"
+                  - option "Slide 15"
+                - button "Next slide (2)" [ref=e92] [cursor=pointer]:
+                  - generic [ref=e94]: 
+              - generic [ref=e95]:
+                - button "Turn multi-user whiteboard on" [ref=e96] [cursor=pointer]:
+                  - generic [ref=e98]: 
+                - button "Zoom out" [ref=e100]:
+                  - button "Zoom out" [disabled] [ref=e101] [cursor=pointer]:
+                    - generic [ref=e103]: 
+                - button "Reset Zoom" [disabled] [ref=e105]: 100%
+                - button "Zoom in 125%" [ref=e106]:
+                  - button "Zoom in 125%" [ref=e107] [cursor=pointer]:
+                    - generic [ref=e109]: 
+                - button "Presentation Fit to width" [ref=e110] [cursor=pointer]:
+                  - generic [ref=e112]: 
+        - region
+        - region "Notifications Alt+T"
+        - region "Actions bar" [ref=e113]:
+          - heading "Actions bar" [level=2] [ref=e114]
+          - generic [ref=e115]:
+            - button "Actions" [ref=e117]:
+              - button "Actions" [ref=e118] [cursor=pointer]:
+                - generic [ref=e120]: 
+            - generic [ref=e121]:
+              - button "Join audio" [ref=e123] [cursor=pointer]:
+                - generic [ref=e125]: 
+              - button "Share webcam" [ref=e127] [cursor=pointer]:
+                - generic [ref=e129]: 
+              - button "Share your screen" [ref=e131] [cursor=pointer]:
+                - generic [ref=e133]: 
+              - button "Share a reaction" [ref=e134]:
+                - button "Share a reaction" [ref=e136] [cursor=pointer]:
+                  - img [ref=e139]
+            - generic [ref=e143]:
+              - button "Raise your hand" [ref=e144] [cursor=pointer]:
+                - generic [ref=e146]: 
+              - button "Minimize presentation" [ref=e147] [cursor=pointer]:
+                - generic [ref=e149]: 
+```
