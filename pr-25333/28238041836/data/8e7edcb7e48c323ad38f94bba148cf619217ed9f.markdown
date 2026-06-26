@@ -1,0 +1,46 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: New message from Public Chat
+  - main [ref=e3]:
+    - document [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - heading "random-7454895" [level=1] [ref=e9]:
+              - button "random-7454895" [ref=e10] [cursor=pointer]:
+                - text: random-7454895
+                - generic [ref=e11]: 
+            - generic [ref=e12]:
+              - heading "Session control" [level=2] [ref=e13]
+              - button "View users' connection status" [ref=e15] [cursor=pointer]
+              - button "Leave" [ref=e24]:
+                - button "Leave" [ref=e25] [cursor=pointer]:
+                  - generic [ref=e26]: 
+              - button "Options" [ref=e27]:
+                - button "Options" [ref=e28] [cursor=pointer]:
+                  - generic [ref=e30]: 
+          - heading "Talking people" [level=2] [ref=e31]
+        - region [ref=e32]:
+          - heading "Presentation area" [level=2] [ref=e33]
+          - generic [ref=e35]: No content for current slide
+        - region
+        - region "Notifications Alt+T"
+        - region "Actions bar" [ref=e36]:
+          - heading "Actions bar" [level=2] [ref=e37]
+          - generic [ref=e38]:
+            - button "Actions" [ref=e40]:
+              - button "Actions" [ref=e41] [cursor=pointer]:
+                - generic [ref=e43]: 
+            - generic [ref=e44]:
+              - button "Join audio" [ref=e46] [cursor=pointer]:
+                - generic [ref=e48]: 
+              - button "Share your screen" [ref=e50] [cursor=pointer]:
+                - generic [ref=e52]: 
+              - button "Share a reaction" [ref=e53]:
+                - button "Share a reaction" [ref=e55] [cursor=pointer]:
+                  - img [ref=e58]
+            - button "Raise your hand" [ref=e63] [cursor=pointer]:
+              - generic [ref=e65]: 
+```

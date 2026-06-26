@@ -1,0 +1,130 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]: New message from Public Chat
+  - main [ref=e3]:
+    - document [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - heading "Messages" [level=2] [ref=e11]
+            - tabpanel [ref=e12]:
+              - button "Public Chat" [expanded] [ref=e16] [cursor=pointer]:
+                - generic [ref=e17]:
+                  - generic [ref=e20]: 
+                  - generic [ref=e22]: Public Chat
+          - generic [ref=e23]:
+            - heading "Notes" [level=2] [ref=e25]
+            - button "Shared Notes" [ref=e28] [cursor=pointer]:
+              - generic [ref=e29]: 
+              - generic [ref=e31]: Shared Notes
+          - generic [ref=e32]:
+            - heading "Users (1)" [level=2] [ref=e33]
+            - button "Manage users" [ref=e34]:
+              - button "Manage users" [ref=e35] [cursor=pointer]:
+                - generic [ref=e37]: 
+          - list [ref=e38]:
+            - list [ref=e39]:
+              - listitem [ref=e40]:
+                - generic:
+                  - listitem "Moderator":
+                    - generic:  mo
+                    - generic:
+                      - generic:
+                        - button "Moderator"
+                        - text: (You)
+        - generic [ref=e43]:
+          - heading "Public Chat" [level=2] [ref=e44]
+          - generic [ref=e45]:
+            - button "Hide Public Chat" [ref=e46] [cursor=pointer]:
+              - generic [ref=e47]: 
+              - generic [ref=e48]: Public Chat
+            - button "Chat options" [ref=e50]:
+              - button "Chat options" [ref=e51] [cursor=pointer]:
+                - generic [ref=e53]: 
+          - list [ref=e56]:
+            - listitem [ref=e58]:
+              - generic [ref=e60]:
+                - generic [ref=e61]: 
+                - paragraph [ref=e62]: Moderator is now the presenter
+          - button [ref=e64] [cursor=pointer]:
+            - generic [ref=e65]: 
+          - generic [ref=e67]:
+            - textbox "Message input for chat Public Chat" [ref=e69]:
+              - /placeholder: Message Public Chat
+            - button "Send message" [ref=e71] [cursor=pointer]:
+              - generic [ref=e73]: 
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - generic [ref=e78]:
+              - generic [ref=e79]: 
+              - button "Users and messages toggle" [expanded] [ref=e80] [cursor=pointer]:
+                - generic [ref=e82]: 
+            - heading "random-5868512" [level=1] [ref=e84]:
+              - button "random-5868512" [ref=e85] [cursor=pointer]:
+                - text: random-5868512
+                - generic [ref=e86]: 
+            - generic [ref=e87]:
+              - heading "Session control" [level=2] [ref=e88]
+              - button "View users' connection status" [ref=e90] [cursor=pointer]
+              - button "Leave" [ref=e99]:
+                - button "Leave" [ref=e100] [cursor=pointer]:
+                  - generic [ref=e101]: 
+              - button "Options" [ref=e102]:
+                - button "Options" [ref=e103] [cursor=pointer]:
+                  - generic [ref=e105]: 
+          - heading "Talking people" [level=2] [ref=e106]
+        - region [ref=e107]:
+          - heading "Presentation area" [level=2] [ref=e108]
+          - generic [ref=e110]: No content for current slide
+        - region
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - heading "Presentation" [level=1] [ref=e114]
+            - generic [ref=e115]:
+              - button "Cancel" [ref=e116] [cursor=pointer]
+              - button "Confirm" [ref=e117] [cursor=pointer]
+          - generic [ref=e118]: As a presenter you have the ability to upload any Office document or PDF file. We recommend PDF file for best results. Please ensure that a presentation is selected using the circle checkbox on the left hand side.
+          - table [ref=e120]:
+            - rowgroup [ref=e121]:
+              - row "Set presentation as current File name Status Options":
+                - cell "Set presentation as current" [ref=e122]
+                - cell "File name" [ref=e123]
+                - cell "Status" [ref=e124]
+                - cell "Options" [ref=e125]
+              - row "Current presentation Actions" [ref=e126]:
+                - cell "Current presentation" [ref=e127]
+                - cell "Actions" [ref=e128]
+            - rowgroup
+          - generic [ref=e129] [cursor=pointer]:
+            - generic [ref=e130]: 
+            - paragraph [ref=e131]:
+              - text: Drag files here to upload
+              - generic [ref=e132]: or browse for files
+            - button "Choose File"
+        - region "Notifications Alt+T"
+        - region "Actions bar" [ref=e133]:
+          - heading "Actions bar" [level=2] [ref=e134]
+          - generic [ref=e135]:
+            - button "Actions" [ref=e137]:
+              - button "Actions" [active] [ref=e138] [cursor=pointer]:
+                - generic [ref=e140]: 
+            - generic [ref=e141]:
+              - button "Join audio" [ref=e143] [cursor=pointer]:
+                - generic [ref=e145]: 
+              - button "Share webcam" [ref=e147] [cursor=pointer]:
+                - generic [ref=e149]: 
+              - button "Share your screen" [ref=e151] [cursor=pointer]:
+                - generic [ref=e153]: 
+              - button "Share a reaction" [ref=e154]:
+                - button "Share a reaction" [ref=e156] [cursor=pointer]:
+                  - img [ref=e159]
+            - button "Raise your hand" [ref=e164] [cursor=pointer]:
+              - generic [ref=e166]: 
+  - generic:
+    - tooltip "Actions":
+      - generic: Actions
+      - generic:
+        - img
+```

@@ -1,0 +1,62 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]: New message from Public Chat
+  - main [ref=e3]:
+    - document [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - heading "random-5880096" [level=1] [ref=e9]:
+              - button "random-5880096" [ref=e10] [cursor=pointer]:
+                - text: random-5880096
+                - generic [ref=e11]: 
+            - generic [ref=e12]:
+              - heading "Session control" [level=2] [ref=e13]
+              - button "View users' connection status" [ref=e15] [cursor=pointer]
+              - button "Leave" [ref=e24]:
+                - button "Leave" [ref=e25] [cursor=pointer]:
+                  - generic [ref=e26]: 
+              - button "Options" [ref=e27]:
+                - button "Options" [ref=e28] [cursor=pointer]:
+                  - generic [ref=e30]: 
+          - heading "Talking people" [level=2] [ref=e31]
+        - region [ref=e33]:
+          - heading "Cameras" [level=2] [ref=e34]
+          - generic [ref=e36]:
+            - generic [ref=e38]:
+              - button "Presenter" [ref=e43]:
+                - generic [ref=e44]: 
+              - button "Moderator (You) ›" [ref=e47]:
+                - button "Moderator (You) ›" [ref=e48] [cursor=pointer]
+            - button "Attendee ›" [ref=e56]:
+              - button "Attendee ›" [ref=e57] [cursor=pointer]
+        - region
+        - region "Notifications Alt+T"
+        - region "Actions bar" [ref=e58]:
+          - heading "Actions bar" [level=2] [ref=e59]
+          - generic [ref=e60]:
+            - button "Actions" [ref=e62]:
+              - button "Actions" [ref=e63] [cursor=pointer]:
+                - generic [ref=e65]: 
+            - generic [ref=e66]:
+              - button "Join audio" [ref=e68] [cursor=pointer]:
+                - generic [ref=e70]: 
+              - generic [ref=e71]:
+                - button "Stop sharing webcam" [active] [ref=e72] [cursor=pointer]:
+                  - generic [ref=e74]: 
+                - button "Video settings":
+                  - button "Video settings" [ref=e76]:
+                    - generic [ref=e77]: 
+              - button "Share a reaction" [ref=e78]:
+                - button "Share a reaction" [ref=e80] [cursor=pointer]:
+                  - img [ref=e83]
+            - button "Raise your hand" [ref=e88] [cursor=pointer]:
+              - generic [ref=e90]: 
+  - generic:
+    - tooltip "Stop sharing webcam":
+      - generic: Stop sharing webcam
+      - generic:
+        - img
+```
