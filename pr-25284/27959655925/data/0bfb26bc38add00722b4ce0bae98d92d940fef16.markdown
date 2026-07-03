@@ -1,0 +1,206 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - main [ref=e3]:
+    - document [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - button "Profile" [ref=e10] [cursor=pointer]:
+              - generic [ref=e11]: 
+            - button "Participants" [ref=e12] [cursor=pointer]:
+              - generic [ref=e13]: 
+              - generic [ref=e15]: "2"
+            - button "Messages" [ref=e16] [cursor=pointer]:
+              - generic [ref=e17]: 
+            - button "Shared Notes" [ref=e18] [cursor=pointer]:
+              - generic [ref=e19]: 
+          - separator [ref=e20]
+          - generic [ref=e21]:
+            - button "Apps Gallery" [ref=e22] [cursor=pointer]:
+              - generic [ref=e23]: 
+            - button "Breakout Rooms" [expanded] [ref=e24] [cursor=pointer]:
+              - generic [ref=e25]: 
+            - button "Polling" [ref=e26] [cursor=pointer]:
+              - generic [ref=e27]: 
+            - button "Timer and Stopwatch" [ref=e28] [cursor=pointer]:
+              - generic [ref=e29]: 
+          - separator [ref=e30]
+          - generic [ref=e31]:
+            - button "Learning Analytics Dashboard" [ref=e32] [cursor=pointer]:
+              - generic [ref=e33]: 
+            - button "Settings" [ref=e34] [cursor=pointer]:
+              - generic [ref=e35]: 
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - heading "Breakout Rooms" [level=2] [ref=e41]
+            - button "Minimize Breakout Rooms" [ref=e43] [cursor=pointer]:
+              - generic [ref=e45]: 
+          - separator [ref=e46]
+          - generic [ref=e47]:
+            - generic [ref=e48]: Duration of Breakout Rooms
+            - generic [ref=e49]:
+              - generic [ref=e50]:
+                - spinbutton "Hours" [ref=e51]: "00"
+                - generic [ref=e52]:
+                  - button "Increase breakout time Hours" [ref=e53] [cursor=pointer]
+                  - button "Decrease breakout time Hours" [ref=e54] [cursor=pointer]
+                - generic [ref=e55]: Hours
+              - generic [ref=e56]:
+                - spinbutton "Minutes" [ref=e57]: "14"
+                - generic [ref=e58]:
+                  - button "Increase breakout time Minutes" [ref=e59] [cursor=pointer]
+                  - button "Decrease breakout time Minutes" [ref=e60] [cursor=pointer]
+                - generic [ref=e61]: Minutes
+              - generic [ref=e62]:
+                - spinbutton "Seconds" [ref=e63]: "34"
+                - generic [ref=e64]:
+                  - button "Increase breakout time Seconds" [ref=e65] [cursor=pointer]
+                  - button "Decrease breakout time Seconds" [ref=e66] [cursor=pointer]
+                - generic [ref=e67]: Seconds
+          - separator [ref=e68]
+          - generic [ref=e69]:
+            - generic [ref=e70]:
+              - generic [ref=e71]:
+                - generic [ref=e72]: Unassigned Users
+                - generic [ref=e73]: "01"
+              - generic [ref=e75]: Attendee
+            - generic [ref=e76]:
+              - generic [ref=e77]:
+                - generic [ref=e78]:
+                  - generic [ref=e79]:
+                    - generic "Room 1" [ref=e80] [cursor=pointer]
+                    - generic [ref=e81]:
+                      - text: "01"
+                      - generic [ref=e82]: 
+                  - button "Room options" [ref=e84]:
+                    - button "Room options" [active] [ref=e85] [cursor=pointer]:
+                      - generic [ref=e87]: 
+                - generic [ref=e89]:
+                  - generic [ref=e90]: Moderator (You)
+                  - button "Reset user room" [ref=e91] [cursor=pointer]: ✕
+              - generic [ref=e93]:
+                - generic [ref=e94]:
+                  - generic "Room 2" [ref=e95] [cursor=pointer]
+                  - generic [ref=e96]:
+                    - text: "00"
+                    - generic [ref=e97]: 
+                - button "Room options" [ref=e99]:
+                  - button "Room options" [ref=e100] [cursor=pointer]:
+                    - generic [ref=e102]: 
+          - generic [ref=e103]:
+            - button "Send message" [ref=e104] [cursor=pointer]:
+              - generic [ref=e105]: Send message
+            - button "Finish" [ref=e106] [cursor=pointer]:
+              - generic [ref=e107]: Finish
+        - generic [ref=e109]:
+          - generic [ref=e110]:
+            - heading "random-4684541" [level=1] [ref=e113]:
+              - button "random-4684541" [ref=e114] [cursor=pointer]:
+                - text: random-4684541
+                - generic [ref=e115]: 
+            - generic [ref=e116]:
+              - heading "Session control" [level=2] [ref=e117]
+              - button "View users' connection status" [ref=e119] [cursor=pointer]
+              - button "Leave" [ref=e128]:
+                - button "Leave" [ref=e129] [cursor=pointer]:
+                  - generic [ref=e130]: 
+              - button "Options" [ref=e131]:
+                - button "Options" [ref=e132] [cursor=pointer]:
+                  - generic [ref=e134]: 
+          - heading "Talking people" [level=2] [ref=e135]
+        - region [ref=e136]:
+          - heading "Presentation area" [level=2] [ref=e137]
+          - generic [ref=e139]:
+            - generic [ref=e140]:
+              - generic [ref=e141]: "Slide content start Welcome To BigBlueButton BigBlueButton is an open source web conferencing system designed for online learning CHAT WEBCAMS AUDIO BREAKOUT ROOMS ! Send public and private \" Hold visual meetings. % Communicate using high ( Form teams of users for messages. quality audio. group work. t POLLING EMOJIS SCREEN SHARING MULTI-USER WHITEBOARD # Poll your users anytime. & Express yourself. $ Share your screen. ' Draw together. For more information visit bigbluebutton.org ➔ Slide content end"
+              - generic [ref=e142]:
+                - button "Undo" [ref=e143] [cursor=pointer]
+                - button "Redo" [ref=e145] [cursor=pointer]
+              - button "Whiteboard Whiteboard options" [ref=e148] [cursor=pointer]:
+                - button "Whiteboard Whiteboard options" [ref=e149]:
+                  - img [ref=e150]
+              - generic [ref=e153]:
+                - generic [ref=e154]:
+                  - img
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic [ref=e159]:
+                            - button "tool.select" [ref=e160] [cursor=pointer]
+                            - button "tool.hand" [ref=e162] [cursor=pointer]
+                            - button "tool.highlight" [ref=e164] [cursor=pointer]
+                            - button "tool.draw" [ref=e166] [cursor=pointer]
+                            - button "tool.eraser" [ref=e168] [cursor=pointer]
+                            - button "tool.arrow" [ref=e170] [cursor=pointer]
+                            - button "tool.text" [ref=e172] [cursor=pointer]
+                            - button "tool.note" [ref=e174] [cursor=pointer]
+                            - button "tool.rectangle" [ref=e176] [cursor=pointer]
+                            - button "tool.ellipse" [ref=e178] [cursor=pointer]
+                            - button "More" [ref=e180] [cursor=pointer]
+                            - button "Actions" [ref=e183] [cursor=pointer]
+                          - button "Styles" [ref=e187] [cursor=pointer]
+            - generic [ref=e189]:
+              - generic [ref=e191]:
+                - button "Previous slide" [disabled] [ref=e192] [cursor=pointer]:
+                  - generic [ref=e194]: 
+                - combobox "Skip slide" [ref=e195] [cursor=pointer]:
+                  - option "Slide 1" [selected]
+                  - option "Slide 2"
+                  - option "Slide 3"
+                  - option "Slide 4"
+                  - option "Slide 5"
+                  - option "Slide 6"
+                  - option "Slide 7"
+                  - option "Slide 8"
+                  - option "Slide 9"
+                  - option "Slide 10"
+                  - option "Slide 11"
+                  - option "Slide 12"
+                  - option "Slide 13"
+                  - option "Slide 14"
+                  - option "Slide 15"
+                - button "Next slide (2)" [ref=e196] [cursor=pointer]:
+                  - generic [ref=e198]: 
+              - generic [ref=e199]:
+                - button "Turn multi-user whiteboard on" [ref=e200] [cursor=pointer]:
+                  - generic [ref=e202]: 
+                - button "Zoom out" [ref=e204]:
+                  - button "Zoom out" [disabled] [ref=e205] [cursor=pointer]:
+                    - generic [ref=e207]: 
+                - button "Reset Zoom" [disabled] [ref=e209]: 100%
+                - button "Zoom in 125%" [ref=e210]:
+                  - button "Zoom in 125%" [ref=e211] [cursor=pointer]:
+                    - generic [ref=e213]: 
+                - button "Presentation Fit to width" [ref=e214] [cursor=pointer]:
+                  - generic [ref=e216]: 
+        - region "Notifications Alt+T"
+        - region "Actions bar" [ref=e217]:
+          - heading "Actions bar" [level=2] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - button "Join audio" [ref=e222] [cursor=pointer]:
+                - generic [ref=e224]: 
+              - button "Share webcam" [ref=e226] [cursor=pointer]:
+                - generic [ref=e228]: 
+              - button "Share your screen" [ref=e230] [cursor=pointer]:
+                - generic [ref=e232]: 
+              - button "Share a reaction" [ref=e233]:
+                - button "Share a reaction" [ref=e235] [cursor=pointer]:
+                  - generic [ref=e237]: 
+              - button "Raise your hand" [ref=e238] [cursor=pointer]:
+                - generic [ref=e240]: 
+            - generic [ref=e242]:
+              - button "Minimize presentation" [ref=e243] [cursor=pointer]:
+                - generic [ref=e245]: 
+              - button "Media Area" [ref=e247] [cursor=pointer]:
+                - generic [ref=e249]: 
+  - generic:
+    - tooltip "Room options":
+      - generic: Room options
+      - generic:
+        - img
+```
