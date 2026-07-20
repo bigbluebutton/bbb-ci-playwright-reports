@@ -1,0 +1,277 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]: New message from Public Chat
+  - main [ref=e3]:
+    - document [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - button [ref=e10] [cursor=pointer]:
+              - generic [ref=e11]: 
+            - button [ref=e12] [cursor=pointer]:
+              - generic [ref=e13]: 
+              - generic [ref=e15]: "1"
+            - button [expanded] [ref=e16] [cursor=pointer]:
+              - generic [ref=e17]: 
+            - button [ref=e18] [cursor=pointer]:
+              - generic [ref=e19]: 
+          - separator [ref=e20]
+          - generic [ref=e21]:
+            - button [ref=e22] [cursor=pointer]:
+              - generic [ref=e23]: 
+            - button [ref=e24] [cursor=pointer]:
+              - generic [ref=e25]: 
+            - button [ref=e26] [cursor=pointer]:
+              - generic [ref=e27]: 
+            - button [ref=e28] [cursor=pointer]:
+              - generic [ref=e29]: 
+          - separator [ref=e30]
+          - generic [ref=e31]:
+            - button [ref=e32] [cursor=pointer]:
+              - generic [ref=e33]: 
+            - button [expanded] [ref=e34] [cursor=pointer]:
+              - generic [ref=e35]: 
+        - generic [ref=e38]:
+          - heading [level=2] [ref=e39]: Messages
+          - generic [ref=e40]:
+            - heading [level=2] [ref=e41]: Messages
+            - button [ref=e43]:
+              - button [ref=e44] [cursor=pointer]:
+                - generic [ref=e46]: 
+            - button [ref=e48] [cursor=pointer]:
+              - generic [ref=e50]: 
+          - separator [ref=e51]
+          - generic [ref=e52]:
+            - list [ref=e56]:
+              - listitem [ref=e58]:
+                - paragraph [ref=e61]:
+                  - generic [ref=e62]: 
+                  - text: Moderator is now the presenter
+            - button [ref=e64] [cursor=pointer]:
+              - generic [ref=e65]: 
+            - generic [ref=e68]:
+              - textbox [ref=e69]:
+                - /placeholder: Message Public Chat
+              - button [ref=e71] [cursor=pointer]:
+                - img [ref=e72]
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - heading [level=1] [ref=e80]:
+              - button [ref=e81] [cursor=pointer]:
+                - text: random-9580953
+                - generic [ref=e82]: 
+            - generic [ref=e83]:
+              - heading [level=2] [ref=e84]: Session control
+              - button [ref=e86] [cursor=pointer]
+              - button [ref=e95]:
+                - button [ref=e96] [cursor=pointer]:
+                  - generic [ref=e97]: 
+              - button [ref=e98]:
+                - button [ref=e99] [cursor=pointer]:
+                  - generic [ref=e101]: 
+          - heading [level=2] [ref=e103]: Talking people
+        - region [ref=e104]:
+          - heading [level=2] [ref=e105]: Presentation area
+          - generic [ref=e107]:
+            - generic [ref=e108]:
+              - generic [ref=e109]: "Slide content start Welcome To BigBlueButton BigBlueButton is an open source web conferencing system designed for online learning CHAT WEBCAMS AUDIO BREAKOUT ROOMS ! Send public and private \" Hold visual meetings. % Communicate using high ( Form teams of users for messages. quality audio. group work. t POLLING EMOJIS SCREEN SHARING MULTI-USER WHITEBOARD # Poll your users anytime. & Express yourself. $ Share your screen. ' Draw together. For more information visit bigbluebutton.org ➔ Slide content end"
+              - generic [ref=e110]:
+                - button [ref=e111] [cursor=pointer]
+                - button [ref=e113] [cursor=pointer]
+              - button [ref=e116] [cursor=pointer]:
+                - button [ref=e117]:
+                  - img [ref=e118]
+              - generic [ref=e121]:
+                - generic [ref=e122]:
+                  - img
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic [ref=e127]:
+                            - button [ref=e128] [cursor=pointer]
+                            - button [ref=e130] [cursor=pointer]
+                            - button [ref=e132] [cursor=pointer]
+                            - button [ref=e134] [cursor=pointer]
+                            - button [ref=e136] [cursor=pointer]
+                            - button [ref=e138] [cursor=pointer]
+                            - button [ref=e140] [cursor=pointer]
+                            - button [ref=e142] [cursor=pointer]
+                            - button [ref=e144] [cursor=pointer]
+                            - button [ref=e146] [cursor=pointer]
+                            - button [ref=e148] [cursor=pointer]
+                            - button [ref=e151] [cursor=pointer]
+                          - button [ref=e155] [cursor=pointer]
+            - generic [ref=e157]:
+              - generic [ref=e159]:
+                - button [disabled] [ref=e160] [cursor=pointer]:
+                  - generic [ref=e162]: 
+                - combobox [ref=e163] [cursor=pointer]
+                - button [ref=e164] [cursor=pointer]:
+                  - generic [ref=e166]: 
+              - generic [ref=e167]:
+                - button [ref=e168] [cursor=pointer]:
+                  - generic [ref=e170]: 
+                - button [ref=e172]:
+                  - button [disabled] [ref=e173] [cursor=pointer]:
+                    - generic [ref=e175]: 
+                - button [disabled] [ref=e177]: 100%
+                - button [ref=e178]:
+                  - button [ref=e179] [cursor=pointer]:
+                    - generic [ref=e181]: 
+                - button [ref=e182] [cursor=pointer]:
+                  - generic [ref=e184]: 
+        - region [ref=e185]:
+          - heading [level=2] [ref=e186]: Actions bar
+          - generic [ref=e187]:
+            - generic [ref=e188]:
+              - button [ref=e190] [cursor=pointer]:
+                - generic [ref=e192]: 
+              - button [ref=e194] [cursor=pointer]:
+                - generic [ref=e196]: 
+              - button [ref=e198] [cursor=pointer]:
+                - generic [ref=e200]: 
+              - button [ref=e201]:
+                - button [ref=e203] [cursor=pointer]:
+                  - generic [ref=e205]: 
+              - button [ref=e206] [cursor=pointer]:
+                - generic [ref=e208]: 
+            - generic [ref=e210]:
+              - button [ref=e211] [cursor=pointer]:
+                - generic [ref=e213]: 
+              - button [ref=e215] [cursor=pointer]:
+                - generic [ref=e217]: 
+  - dialog "Settings" [active] [ref=e219]:
+    - generic [ref=e220]:
+      - banner [ref=e221]:
+        - heading "Settings" [level=2] [ref=e222]
+        - button "Close Settings" [ref=e223] [cursor=pointer]:
+          - generic [ref=e225]: 
+      - generic [ref=e226]:
+        - generic [ref=e227]:
+          - tablist [ref=e228]:
+            - tab "Application Settings" [selected] [ref=e229] [cursor=pointer]:
+              - generic [ref=e230]: Application Settings
+            - tab "Notifications" [ref=e231] [cursor=pointer]:
+              - generic [ref=e232]: Notifications
+            - tab "Data savings" [ref=e233] [cursor=pointer]:
+              - generic [ref=e234]: Data savings
+            - tab "Keyboard shortcuts" [ref=e235] [cursor=pointer]:
+              - generic [ref=e236]: Keyboard shortcuts
+            - tab "About" [ref=e237] [cursor=pointer]:
+              - generic [ref=e238]: About
+          - tabpanel "Application Settings" [ref=e239]:
+            - generic [ref=e240]:
+              - generic [ref=e241]:
+                - heading "Application Settings" [level=3] [ref=e242]
+                - generic [ref=e243]:
+                  - generic [ref=e246]:
+                    - generic "Animations - ON" [ref=e248] [cursor=pointer]:
+                      - checkbox [checked] [ref=e249]
+                    - generic [ref=e252]: Animations
+                  - generic [ref=e255]:
+                    - generic "Musician Mode (all audio filters off, stereo) - ON" [ref=e257] [cursor=pointer]:
+                      - checkbox [ref=e258]
+                    - generic [ref=e261]: Musician Mode (all audio filters off, stereo)
+                  - generic [ref=e264]:
+                    - generic "Audio push to talk - OFF" [ref=e266] [cursor=pointer]:
+                      - checkbox [ref=e267]
+                    - generic [ref=e270]: Audio push to talk
+                  - generic [ref=e273]:
+                    - generic "Dark mode - OFF" [ref=e275] [cursor=pointer]:
+                      - checkbox [ref=e276]
+                    - generic [ref=e279]: Dark mode
+                  - generic [ref=e282]:
+                    - generic "Auto Hide Whiteboard Toolbars - OFF" [ref=e284] [cursor=pointer]:
+                      - checkbox [ref=e285]
+                    - generic [ref=e288]: Auto Hide Whiteboard Toolbars
+                  - generic [ref=e291]:
+                    - generic "Disable self-view (all cameras) - [object Object]" [ref=e293] [cursor=pointer]:
+                      - checkbox [ref=e294]
+                    - generic [ref=e297]: Disable self-view (all cameras)
+                  - generic [ref=e300]:
+                    - generic "Auto close the reactions bar - [object Object]" [ref=e302] [cursor=pointer]:
+                      - checkbox [checked] [ref=e303]
+                    - generic [ref=e306]: Auto close the reactions bar
+              - generic [ref=e307]:
+                - heading "Application Language" [level=3] [ref=e308]
+                - combobox "Application Language" [ref=e313]:
+                  - option "Choose language" [disabled]
+                  - option "Afrikaans - Afrikaans"
+                  - option "العربية - Arabic"
+                  - option "Azərbaycan dili - Azerbaijani"
+                  - option "Български - Bulgarian"
+                  - option "বাংলা - Bengali"
+                  - option "Català - Catalan"
+                  - option "Čeština - Czech"
+                  - option "Dansk - Danish"
+                  - option "Deutsch - German"
+                  - option "ދިވެހި - Dhivehi"
+                  - option "Ελληνικά - Greek (Greece)"
+                  - option "English" [selected]
+                  - option "Esperanto - Esperanto"
+                  - option "Español - Spanish"
+                  - option "Español (Latinoamérica) - Spanish (Latin America)"
+                  - option "Español (España) - Spanish (Spain)"
+                  - option "Español (México) - Spanish (Mexico)"
+                  - option "eesti keel - Estonian"
+                  - option "Euskara - Basque"
+                  - option "فارسی - Persian"
+                  - option "Suomi - Finnish"
+                  - option "Français - French"
+                  - option "Galego - Galician"
+                  - option "עברית‏ - Hebrew"
+                  - option "हिन्दी - Hindi"
+                  - option "Hrvatski - Croatian"
+                  - option "Magyar - Hungarian"
+                  - option "Հայերեն - Armenian"
+                  - option "Bahasa Indonesia - Indonesian"
+                  - option "Italiano - Italian"
+                  - option "日本語 - Japanese"
+                  - option "ქართული - Georgian"
+                  - option "ភាសាខ្មែរ - Khmer"
+                  - option "ಕನ್ನಡ - Kannada"
+                  - option "한국어 (韩国) - Korean (Korea)"
+                  - option "ລາວ - Lao"
+                  - option "Lietuvių - Lithuanian"
+                  - option "Latviešu - Latvian"
+                  - option "മലയാളം - Malayalam"
+                  - option "Монгол - Mongolian"
+                  - option "Norsk (bokmål) - Norwegian (bokmal)"
+                  - option "Nederlands - Dutch"
+                  - option "Occitan - Occitan"
+                  - option "Polski - Polish"
+                  - option "Português - Portuguese"
+                  - option "Português (Brasil) - Portuguese (Brazil)"
+                  - option "Română - Romanian"
+                  - option "Русский - Russian"
+                  - option "Slovenčina (Slovakia) - Slovak (Slovakia)"
+                  - option "Slovenščina - Slovenian"
+                  - option "Shqip"
+                  - option "Српски - Serbian"
+                  - option "Svenska - Swedish"
+                  - option "தமிழ் - Tamil"
+                  - option "తెలుగు - Telugu"
+                  - option "ภาษาไทย - Thai"
+                  - option "Türkçe - Turkish (Turkey)"
+                  - option "Українська - Ukrainian"
+                  - option "Tiếng Việt - Vietnamese (Vietnam)"
+                  - option "中文（中国） - Chinese Simplified (China)"
+                  - option "中文（台灣） - Chinese Traditional (Taiwan)"
+              - generic [ref=e314]:
+                - heading "Font size" [level=3] [ref=e315]
+                - generic [ref=e316]:
+                  - paragraph [ref=e318]: Example Sentence for Font
+                  - generic [ref=e320]:
+                    - button "Decrease application font size, currently 90%" [ref=e322] [cursor=pointer]:
+                      - generic [ref=e323]: 
+                    - generic [ref=e325]: 90%
+                    - button "Increase application font size, currently 90%" [ref=e327] [cursor=pointer]:
+                      - generic [ref=e328]: 
+        - generic [ref=e329]:
+          - button "Cancel" [ref=e330] [cursor=pointer]
+          - button "Save" [ref=e331] [cursor=pointer]
+```
