@@ -1,0 +1,124 @@
+# Page snapshot
+
+```yaml
+- main [ref=e3]:
+  - document [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - button "Profile" [ref=e10] [cursor=pointer]:
+            - generic [ref=e11]: 
+          - button "Participants" [ref=e12] [cursor=pointer]:
+            - generic [ref=e13]: 
+            - generic [ref=e15]: "2"
+          - button "Messages" [ref=e16] [cursor=pointer]:
+            - generic [ref=e17]: 
+          - button "Shared Notes" [ref=e18] [cursor=pointer]:
+            - generic [ref=e19]: 
+        - separator [ref=e20]
+        - generic [ref=e21]:
+          - button "Apps Gallery" [ref=e22] [cursor=pointer]:
+            - generic [ref=e23]: 
+          - button "Breakout Rooms" [ref=e24] [cursor=pointer]:
+            - generic [ref=e25]: 
+          - button "Polling" [ref=e26] [cursor=pointer]:
+            - generic [ref=e27]: 
+          - button "Timer and Stopwatch" [ref=e28] [cursor=pointer]:
+            - generic [ref=e29]: 
+        - separator [ref=e30]
+        - generic [ref=e31]:
+          - button "Learning Analytics Dashboard" [ref=e32] [cursor=pointer]:
+            - generic [ref=e33]: 
+          - button "Settings" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]: 
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - heading "random-6749787" [level=1] [ref=e40]:
+            - button "random-6749787" [ref=e41] [cursor=pointer]:
+              - text: random-6749787
+              - generic [ref=e42]: 
+          - generic [ref=e43]:
+            - heading "Session control" [level=2] [ref=e44]
+            - button "View users' connection status" [ref=e46] [cursor=pointer]
+            - button "Leave" [ref=e55]:
+              - button "Leave" [ref=e56] [cursor=pointer]:
+                - generic [ref=e57]: 
+            - button "Options" [ref=e58]:
+              - button "Options" [ref=e59] [cursor=pointer]:
+                - generic [ref=e61]: 
+        - heading "Talking people" [level=2] [ref=e63]
+      - region [ref=e64]:
+        - heading "Presentation area" [level=2] [ref=e65]
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - generic [ref=e69]: No content for current slide
+            - generic [ref=e70]:
+              - button "Undo" [ref=e71] [cursor=pointer]
+              - button "Redo" [ref=e73] [cursor=pointer]
+            - button "Whiteboard Whiteboard options" [ref=e76] [cursor=pointer]:
+              - button "Whiteboard Whiteboard options" [ref=e77]:
+                - img [ref=e78]
+            - generic [ref=e81]:
+              - generic [ref=e82]:
+                - img
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic [ref=e87]:
+                          - button "tool.select" [ref=e88] [cursor=pointer]
+                          - button "tool.hand" [ref=e90] [cursor=pointer]
+                          - button "tool.highlight" [ref=e92] [cursor=pointer]
+                          - button "tool.draw" [ref=e94] [cursor=pointer]
+                          - button "tool.eraser" [ref=e96] [cursor=pointer]
+                          - button "tool.arrow" [ref=e98] [cursor=pointer]
+                          - button "tool.text" [ref=e100] [cursor=pointer]
+                          - button "tool.note" [ref=e102] [cursor=pointer]
+                          - button "tool.rectangle" [ref=e104] [cursor=pointer]
+                          - button "tool.ellipse" [ref=e106] [cursor=pointer]
+                          - button "More" [ref=e108] [cursor=pointer]
+                          - button "Actions" [ref=e111] [cursor=pointer]
+                        - button "Styles" [ref=e115] [cursor=pointer]
+          - generic [ref=e117]:
+            - generic [ref=e119]:
+              - button "Previous slide" [disabled] [ref=e120] [cursor=pointer]:
+                - generic [ref=e122]: 
+              - combobox "Skip slide" [ref=e123] [cursor=pointer]:
+                - option "Slide 1" [selected]
+              - button "Next slide" [disabled] [ref=e124] [cursor=pointer]:
+                - generic [ref=e126]: 
+            - generic [ref=e127]:
+              - button "Turn multi-user whiteboard on" [ref=e128] [cursor=pointer]:
+                - generic [ref=e130]: 
+              - button "Zoom out" [ref=e132]:
+                - button "Zoom out" [disabled] [ref=e133] [cursor=pointer]:
+                  - generic [ref=e135]: 
+              - button "Reset Zoom" [disabled] [ref=e137]: 100%
+              - button "Zoom in 125%" [ref=e138]:
+                - button "Zoom in 125%" [ref=e139] [cursor=pointer]:
+                  - generic [ref=e141]: 
+              - button "Presentation Fit to width" [ref=e142] [cursor=pointer]:
+                - generic [ref=e144]: 
+      - region "Notifications Alt+T"
+      - region "Actions bar" [ref=e145]:
+        - heading "Actions bar" [level=2] [ref=e146]
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - button "Join audio" [ref=e150] [cursor=pointer]:
+              - generic [ref=e152]: 
+            - button "Share webcam" [ref=e154] [cursor=pointer]:
+              - generic [ref=e156]: 
+            - button "Share your screen" [ref=e158] [cursor=pointer]:
+              - generic [ref=e160]: 
+            - button "Share a reaction" [ref=e161]:
+              - button "Share a reaction" [ref=e163] [cursor=pointer]:
+                - generic [ref=e165]: 
+            - button "Raise your hand" [ref=e166] [cursor=pointer]:
+              - generic [ref=e168]: 
+          - generic [ref=e170]:
+            - button "Minimize presentation" [ref=e171] [cursor=pointer]:
+              - generic [ref=e173]: 
+            - button "Media Area" [ref=e175] [cursor=pointer]:
+              - generic [ref=e177]: 
+```
