@@ -1,0 +1,257 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]: New message from Public Chat
+  - main [ref=e3]:
+    - document [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - heading "Messages" [level=2] [ref=e11]
+            - tabpanel [ref=e12]:
+              - button "Public Chat" [expanded] [ref=e16] [cursor=pointer]:
+                - generic [ref=e17]:
+                  - generic [ref=e20]: 
+                  - generic [ref=e22]: Public Chat
+          - generic [ref=e23]:
+            - heading "Notes" [level=2] [ref=e25]
+            - button "Shared Notes" [ref=e28] [cursor=pointer]:
+              - generic [ref=e29]: 
+              - generic [ref=e31]: Shared Notes
+          - generic [ref=e32]:
+            - heading "Polling" [level=2] [ref=e34]
+            - button "Polling" [ref=e37] [cursor=pointer]:
+              - generic [ref=e38]: 
+              - generic [ref=e39]: Polling
+          - generic [ref=e40]:
+            - heading "Users (2)" [level=2] [ref=e41]
+            - button "Manage users" [ref=e42]:
+              - button "Manage users" [ref=e43] [cursor=pointer]:
+                - generic [ref=e45]: 
+          - list [ref=e46]:
+            - list [ref=e47]:
+              - listitem [ref=e48]:
+                - generic:
+                  - listitem "Moderator":
+                    - generic:  mo
+                    - generic:
+                      - generic:
+                        - button "Moderator"
+                        - text: (You)
+              - listitem [ref=e49]:
+                - button "Attendee" [ref=e51]:
+                  - listitem "Attendee" [ref=e53] [cursor=pointer]:
+                    - generic [ref=e54]: at
+                    - button "Attendee" [ref=e57]
+        - generic [ref=e60]:
+          - heading "Public Chat" [level=2] [ref=e61]
+          - generic [ref=e62]:
+            - button "Hide Public Chat" [ref=e63] [cursor=pointer]:
+              - generic [ref=e64]: 
+              - generic [ref=e65]: Public Chat
+            - button "Chat options" [ref=e67]:
+              - button "Chat options" [ref=e68] [cursor=pointer]:
+                - generic [ref=e70]: 
+          - list [ref=e73]:
+            - listitem [ref=e75]:
+              - generic [ref=e77]:
+                - generic [ref=e78]: 
+                - paragraph [ref=e79]: Moderator is now the presenter
+            - generic [ref=e81]:
+              - generic [ref=e82]:
+                - generic [ref=e84]: 
+                - listitem [ref=e85]:
+                  - generic [ref=e86]:
+                    - generic [ref=e87]: Poll Results
+                    - time [ref=e88]: 7:16 AM
+              - listitem [ref=e89]:
+                - generic [ref=e90]:
+                  - img [ref=e94]:
+                    - generic [ref=e96]:
+                      - generic [ref=e98]: "0"
+                      - generic [ref=e100]: "1"
+                      - generic [ref=e102]: "2"
+                      - generic [ref=e104]: "3"
+                      - generic [ref=e106]: "4"
+                    - generic [ref=e108]:
+                      - generic [ref=e111]: Yes (1)
+                      - generic [ref=e114]: No (0)
+                      - generic [ref=e117]: Abstention (0)
+                  - paragraph [ref=e123]: "Yes: 1 vote, No: 0 votes, Abstention: 0 votes."
+                  - list [ref=e124]:
+                    - listitem [ref=e125]: Yes — 1
+                    - listitem [ref=e126]: No — 0
+                    - listitem [ref=e127]: Abstention — 0
+          - button [ref=e129] [cursor=pointer]:
+            - generic [ref=e130]: 
+          - generic [ref=e132]:
+            - textbox "Message input for chat Public Chat" [ref=e134]:
+              - /placeholder: Message Public Chat
+            - button "Send message" [ref=e136] [cursor=pointer]:
+              - generic [ref=e138]: 
+        - generic [ref=e141]:
+          - generic [ref=e142]:
+            - generic [ref=e143]:
+              - generic [ref=e144]: 
+              - button "Users and messages toggle" [expanded] [ref=e145] [cursor=pointer]:
+                - generic [ref=e147]: 
+            - heading "random-9107036" [level=1] [ref=e149]:
+              - button "random-9107036" [ref=e150] [cursor=pointer]:
+                - text: random-9107036
+                - generic [ref=e151]: 
+            - generic [ref=e152]:
+              - heading "Session control" [level=2] [ref=e153]
+              - button "View users' connection status" [ref=e155] [cursor=pointer]
+              - button "Leave" [ref=e164]:
+                - button "Leave" [ref=e165] [cursor=pointer]:
+                  - generic [ref=e166]: 
+              - button "Options" [ref=e167]:
+                - button "Options" [ref=e168] [cursor=pointer]:
+                  - generic [ref=e170]: 
+          - heading "Talking people" [level=2] [ref=e171]
+        - region [ref=e172]:
+          - heading "Presentation area" [level=2] [ref=e173]
+          - generic [ref=e175]:
+            - generic [ref=e176]:
+              - generic [ref=e177]: Slide content start This slide left blank for whiteboard Slide content end
+              - generic [ref=e178]:
+                - button "Undo" [ref=e179] [cursor=pointer]
+                - button "Redo" [ref=e181] [cursor=pointer]
+              - button "Whiteboard Whiteboard options" [ref=e184] [cursor=pointer]:
+                - button "Whiteboard Whiteboard options" [ref=e185]:
+                  - img [ref=e186]
+              - generic [ref=e189]:
+                - generic [ref=e190]:
+                  - img
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic [ref=e195]:
+                            - button "tool.select" [ref=e196] [cursor=pointer]
+                            - button "tool.hand" [ref=e198] [cursor=pointer]
+                            - button "tool.highlight" [ref=e200] [cursor=pointer]
+                            - button "tool.draw" [ref=e202] [cursor=pointer]
+                            - button "tool.eraser" [ref=e204] [cursor=pointer]
+                            - button "tool.arrow" [ref=e206] [cursor=pointer]
+                            - button "tool.text" [ref=e208] [cursor=pointer]
+                            - button "tool.note" [ref=e210] [cursor=pointer]
+                            - button "tool.rectangle" [ref=e212] [cursor=pointer]
+                            - button "tool.ellipse" [ref=e214] [cursor=pointer]
+                            - button "More" [ref=e216] [cursor=pointer]
+                            - button "Actions" [ref=e219] [cursor=pointer]
+                          - button "Styles" [ref=e223] [cursor=pointer]
+            - generic [ref=e225]:
+              - generic [ref=e227]:
+                - button "Previous slide (4)" [ref=e228] [cursor=pointer]:
+                  - generic [ref=e230]: 
+                - combobox "Skip slide" [ref=e231] [cursor=pointer]:
+                  - option "Slide 1"
+                  - option "Slide 2"
+                  - option "Slide 3"
+                  - option "Slide 4"
+                  - option "Slide 5" [selected]
+                  - option "Slide 6"
+                  - option "Slide 7"
+                  - option "Slide 8"
+                  - option "Slide 9"
+                  - option "Slide 10"
+                  - option "Slide 11"
+                  - option "Slide 12"
+                  - option "Slide 13"
+                  - option "Slide 14"
+                  - option "Slide 15"
+                - button "Next slide (6)" [ref=e232] [cursor=pointer]:
+                  - generic [ref=e234]: 
+              - generic [ref=e235]:
+                - button "Turn multi-user whiteboard on" [ref=e236] [cursor=pointer]:
+                  - generic [ref=e238]: 
+                - button "Zoom out" [ref=e240]:
+                  - button "Zoom out" [disabled] [ref=e241] [cursor=pointer]:
+                    - generic [ref=e243]: 
+                - button "Reset Zoom" [disabled] [ref=e245]: 100%
+                - button "Zoom in 125%" [ref=e246]:
+                  - button "Zoom in 125%" [ref=e247] [cursor=pointer]:
+                    - generic [ref=e249]: 
+                - button "Presentation Fit to width" [ref=e250] [cursor=pointer]:
+                  - generic [ref=e252]: 
+        - region
+        - generic [ref=e254]:
+          - generic [ref=e255]:
+            - heading "Presentation" [level=1] [ref=e256]
+            - generic [ref=e257]:
+              - button "Cancel" [ref=e258] [cursor=pointer]
+              - button "Confirm" [ref=e259] [cursor=pointer]
+          - generic [ref=e260]: As a presenter you have the ability to upload any Office document or PDF file. We recommend PDF file for best results. Please ensure that a presentation is selected using the circle checkbox on the left hand side.
+          - table [ref=e262]:
+            - rowgroup [ref=e263]:
+              - row "Set presentation as current File name Status Options":
+                - cell "Set presentation as current" [ref=e264]
+                - cell "File name" [ref=e265]
+                - cell "Status" [ref=e266]
+                - cell "Options" [ref=e267]
+              - row "Current presentation Actions" [ref=e268]:
+                - cell "Current presentation" [ref=e269]
+                - cell "Actions" [ref=e270]
+            - rowgroup [ref=e271]:
+              - row "Set presentation as current default.pdf default.pdf Current Export options Remove presentation default.pdf" [ref=e272]:
+                - cell "Set presentation as current default.pdf" [ref=e273] [cursor=pointer]:
+                  - generic [ref=e274]:
+                    - radio "Set presentation as current default.pdf" [checked] [ref=e275]
+                    - generic [ref=e276]: 
+                - cell "default.pdf" [ref=e277]:
+                  - generic [ref=e278]: default.pdf
+                - cell "Current" [ref=e279]
+                - cell [ref=e280]
+                - cell "Export options Remove presentation default.pdf" [ref=e281]:
+                  - button "Export options" [ref=e283]:
+                    - button "Export options" [ref=e284] [cursor=pointer]:
+                      - generic [ref=e286]: 
+                  - button "Remove presentation default.pdf" [ref=e287] [cursor=pointer]:
+                    - generic [ref=e288]: 
+          - generic [ref=e289]: In the "Export options" menu you have the option to enable download of the original presentation and to provide users with a downloadable link with annotations in public chat.
+          - generic [ref=e290] [cursor=pointer]:
+            - generic [ref=e291]: 
+            - paragraph [ref=e292]:
+              - text: Drag files here to upload
+              - generic [ref=e293]: or browse for files
+            - button "Choose File"
+        - region "Notifications Alt+T":
+          - generic [ref=e295] [cursor=pointer]:
+            - alert [ref=e296]:
+              - generic [ref=e298]:
+                - generic [ref=e299]: 
+                - generic [ref=e300]: Poll results were published
+            - text: 
+            - generic [ref=e301]:
+              - progressbar "notification timer"
+        - region "Actions bar" [ref=e303]:
+          - heading "Actions bar" [level=2] [ref=e304]
+          - generic [ref=e305]:
+            - button "Actions" [ref=e307]:
+              - button "Actions" [active] [ref=e308] [cursor=pointer]:
+                - generic [ref=e310]: 
+            - generic [ref=e311]:
+              - button "Join audio" [ref=e313] [cursor=pointer]:
+                - generic [ref=e315]: 
+              - button "Share webcam" [ref=e317] [cursor=pointer]:
+                - generic [ref=e319]: 
+              - button "Share your screen" [ref=e321] [cursor=pointer]:
+                - generic [ref=e323]: 
+              - button "Share a reaction" [ref=e324]:
+                - button "Share a reaction" [ref=e326] [cursor=pointer]:
+                  - img [ref=e329]
+            - generic [ref=e333]:
+              - button "Raise your hand" [ref=e334] [cursor=pointer]:
+                - generic [ref=e336]: 
+              - button "Minimize presentation" [ref=e337] [cursor=pointer]:
+                - generic [ref=e339]: 
+  - generic [ref=e340]: "0"
+  - generic:
+    - tooltip "Actions":
+      - generic: Actions
+      - generic:
+        - img
+```
