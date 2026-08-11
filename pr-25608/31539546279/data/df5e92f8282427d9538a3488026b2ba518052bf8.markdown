@@ -1,0 +1,132 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]: New message from Public Chat
+  - main [ref=e3]:
+    - document [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - button [ref=e10] [cursor=pointer]:
+              - generic [ref=e11]: 
+            - button [ref=e12] [cursor=pointer]:
+              - generic [ref=e13]: 
+              - generic [ref=e15]: "1"
+            - button [expanded] [ref=e16] [cursor=pointer]:
+              - generic [ref=e17]: 
+            - button [ref=e18] [cursor=pointer]:
+              - generic [ref=e19]: 
+          - separator [ref=e20]
+          - generic [ref=e21]:
+            - button [ref=e22] [cursor=pointer]:
+              - generic [ref=e23]: 
+            - button [ref=e24] [cursor=pointer]:
+              - generic [ref=e25]: 
+            - button [ref=e26] [cursor=pointer]:
+              - generic [ref=e27]: 
+            - button [ref=e28] [cursor=pointer]:
+              - generic [ref=e29]: 
+          - separator [ref=e30]
+          - generic [ref=e31]:
+            - button [ref=e32] [cursor=pointer]:
+              - generic [ref=e33]: 
+            - button [expanded] [ref=e34] [cursor=pointer]:
+              - generic [ref=e35]: 
+        - generic [ref=e38]:
+          - heading [level=2] [ref=e39]: Messages
+          - generic [ref=e40]:
+            - heading [level=2] [ref=e41]: Messages
+            - button [ref=e43]:
+              - button [ref=e44] [cursor=pointer]:
+                - generic [ref=e46]: 
+            - button [ref=e48] [cursor=pointer]:
+              - generic [ref=e50]: 
+          - separator [ref=e51]
+          - generic [ref=e52]:
+            - list [ref=e56]:
+              - listitem [ref=e58]:
+                - paragraph [ref=e61]:
+                  - generic [ref=e62]: 
+                  - text: Moderator is now the presenter
+            - button [ref=e64] [cursor=pointer]:
+              - generic [ref=e65]: 
+            - generic [ref=e68]:
+              - textbox [ref=e69]:
+                - /placeholder: Message Public Chat
+              - button [ref=e71] [cursor=pointer]:
+                - img [ref=e72]
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - heading [level=1] [ref=e80]:
+              - button [ref=e81] [cursor=pointer]:
+                - generic [ref=e82]: random-8601881
+                - generic [ref=e83]: 
+            - generic [ref=e84]:
+              - heading [level=2] [ref=e85]: Session control
+              - button [ref=e87] [cursor=pointer]
+              - button [ref=e96]:
+                - button [ref=e97] [cursor=pointer]:
+                  - generic [ref=e98]: 
+              - button [ref=e99]:
+                - button [ref=e100] [cursor=pointer]:
+                  - generic [ref=e102]: 
+          - heading [level=2] [ref=e104]: Talking people
+        - region [ref=e106]:
+          - heading [level=2] [ref=e107]: Cameras
+          - generic [ref=e113]:
+            - generic [ref=e116]: Moderator (You)
+            - generic [ref=e118]: 
+        - region [ref=e122]:
+          - heading [level=2] [ref=e123]: Actions bar
+          - generic [ref=e124]:
+            - generic [ref=e125]:
+              - button [ref=e127] [cursor=pointer]:
+                - generic [ref=e129]: 
+              - button [ref=e131] [cursor=pointer]:
+                - generic [ref=e133]: 
+              - button [ref=e135] [cursor=pointer]:
+                - generic [ref=e137]: 
+              - button [ref=e138]:
+                - button [ref=e140] [cursor=pointer]:
+                  - generic [ref=e142]: 
+              - button [ref=e143] [cursor=pointer]:
+                - generic [ref=e145]: 
+            - button [ref=e148] [cursor=pointer]:
+              - generic [ref=e150]: 
+  - dialog "Settings" [ref=e152]:
+    - generic [ref=e153]:
+      - banner [ref=e154]:
+        - heading "Settings" [level=2] [ref=e155]
+        - button "Close Settings" [ref=e156] [cursor=pointer]:
+          - generic [ref=e158]: 
+      - generic [ref=e159]:
+        - generic [ref=e160]:
+          - tablist [ref=e161]:
+            - tab "Application Settings" [ref=e162] [cursor=pointer]:
+              - generic [ref=e163]: Application Settings
+            - tab "Notifications" [ref=e164] [cursor=pointer]:
+              - generic [ref=e165]: Notifications
+            - tab "Data savings" [ref=e166] [cursor=pointer]:
+              - generic [ref=e167]: Data savings
+            - tab "Keyboard shortcuts" [ref=e168] [cursor=pointer]:
+              - generic [ref=e169]: Keyboard shortcuts
+            - tab "About" [selected] [ref=e170] [cursor=pointer]:
+              - generic [ref=e171]: About
+          - tabpanel "About" [ref=e172]:
+            - generic [ref=e174]:
+              - generic [ref=e175]:
+                - heading "About" [level=3] [ref=e176]
+                - paragraph [ref=e177]: "Copyright: ©2026 BigBlueButton Inc."
+                - paragraph [ref=e178]: "Client build: 20260811T184749"
+                - paragraph [ref=e179]: "BigBlueButton version: 4.0.0-beta.5-wip"
+              - generic [ref=e180]:
+                - heading "Help" [level=3] [ref=e181]
+                - paragraph [ref=e182]:
+                  - text: Discover our
+                  - link "knowledge base" [active] [ref=e183] [cursor=pointer]:
+                    - /url: https://bigbluebutton.org/html5/
+        - generic [ref=e184]:
+          - button "Cancel" [ref=e185] [cursor=pointer]
+          - button "Save" [ref=e186] [cursor=pointer]
+```

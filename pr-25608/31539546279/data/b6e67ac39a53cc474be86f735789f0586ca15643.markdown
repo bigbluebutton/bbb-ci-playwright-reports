@@ -1,0 +1,103 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: New message from Public Chat
+  - main [ref=e3]:
+    - document [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - button "Profile" [ref=e10] [cursor=pointer]:
+              - generic [ref=e11]: 
+            - button "Participants" [ref=e12] [cursor=pointer]:
+              - generic [ref=e13]: 
+              - generic [ref=e15]: "1"
+            - button "Messages" [expanded] [ref=e16] [cursor=pointer]:
+              - generic [ref=e17]: 
+            - button "Shared Notes" [ref=e18] [cursor=pointer]:
+              - generic [ref=e19]: 
+          - separator [ref=e20]
+          - generic [ref=e21]:
+            - button "Apps Gallery" [ref=e22] [cursor=pointer]:
+              - generic [ref=e23]: 
+            - button "Breakout Rooms" [ref=e24] [cursor=pointer]:
+              - generic [ref=e25]: 
+            - button "Polling" [ref=e26] [cursor=pointer]:
+              - generic [ref=e27]: 
+            - button "Timer and Stopwatch" [ref=e28] [cursor=pointer]:
+              - generic [ref=e29]: 
+          - separator [ref=e30]
+          - generic [ref=e31]:
+            - button "Learning Analytics Dashboard" [ref=e32] [cursor=pointer]:
+              - generic [ref=e33]: 
+            - button "Settings" [ref=e34] [cursor=pointer]:
+              - generic [ref=e35]: 
+        - generic [ref=e38]:
+          - heading "Messages" [level=2] [ref=e39]
+          - generic [ref=e40]:
+            - heading "Messages" [level=2] [ref=e41]
+            - button "Chat options" [ref=e43]:
+              - button "Chat options" [ref=e44] [cursor=pointer]:
+                - generic [ref=e46]: 
+            - button "Minimize Messages" [ref=e48] [cursor=pointer]:
+              - generic [ref=e50]: 
+          - separator [ref=e51]
+          - generic [ref=e52]:
+            - list [ref=e56]:
+              - listitem [ref=e58]:
+                - paragraph [ref=e61]:
+                  - generic [ref=e62]: 
+                  - text: User1 is now the presenter
+            - button [ref=e64] [cursor=pointer]:
+              - generic [ref=e65]: 
+            - generic [ref=e68]:
+              - textbox "Message input for chat Public Chat" [ref=e69]:
+                - /placeholder: Message Public Chat
+              - button "Send message" [ref=e71] [cursor=pointer]:
+                - img [ref=e72]
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - heading "random-2854025" [level=1] [ref=e80]:
+              - button "random-2854025" [ref=e81] [cursor=pointer]:
+                - generic [ref=e82]: random-2854025
+                - generic [ref=e83]: 
+            - generic [ref=e84]:
+              - heading "Session control" [level=2] [ref=e85]
+              - button "Start recording" [ref=e88]:
+                - img [ref=e90]
+                - generic [ref=e94]:
+                  - generic [ref=e95]: Not recording
+                  - generic [ref=e96]: Start recording
+              - button "View users' connection status" [ref=e98] [cursor=pointer]
+              - button "Leave" [ref=e107]:
+                - button "Leave" [ref=e108] [cursor=pointer]:
+                  - generic [ref=e109]: 
+              - button "Options" [ref=e110]:
+                - button "Options" [ref=e111] [cursor=pointer]:
+                  - generic [ref=e113]: 
+          - heading "Talking people" [level=2] [ref=e115]
+        - region [ref=e117]:
+          - heading "Cameras" [level=2] [ref=e118]
+          - generic [ref=e124]:
+            - generic [ref=e127]: User1 (You)
+            - generic [ref=e129]: 
+        - region "Notifications Alt+T"
+        - region "Actions bar" [ref=e133]:
+          - heading "Actions bar" [level=2] [ref=e134]
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - button "Join audio" [ref=e138] [cursor=pointer]:
+                - generic [ref=e140]: 
+              - button "Share webcam" [ref=e142] [cursor=pointer]:
+                - generic [ref=e144]: 
+              - button "Share your screen" [ref=e146] [cursor=pointer]:
+                - generic [ref=e148]: 
+              - button "Share a reaction" [ref=e149]:
+                - button "Share a reaction" [ref=e151] [cursor=pointer]:
+                  - generic [ref=e153]: 
+              - button "Raise your hand" [ref=e154] [cursor=pointer]:
+                - generic [ref=e156]: 
+            - button "Media Area" [ref=e159] [cursor=pointer]:
+              - generic [ref=e161]: 
+```
