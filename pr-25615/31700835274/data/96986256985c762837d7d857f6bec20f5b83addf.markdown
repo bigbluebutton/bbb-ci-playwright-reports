@@ -1,0 +1,107 @@
+# Page snapshot
+
+```yaml
+- main [ref=e3]:
+  - document [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - button "Profile" [ref=e10] [cursor=pointer]:
+            - generic [ref=e11]: 
+          - button "Participants" [ref=e12] [cursor=pointer]:
+            - generic [ref=e13]: 
+            - generic [ref=e15]: "2"
+          - button "Messages" [ref=e16] [cursor=pointer]:
+            - generic [ref=e17]: 
+          - button "Shared Notes (Pinned)" [ref=e18]:
+            - generic [ref=e19]: 
+        - separator [ref=e20]
+        - generic [ref=e21]:
+          - button "Apps Gallery" [ref=e22] [cursor=pointer]:
+            - generic [ref=e23]: 
+          - button "Breakout Rooms" [ref=e24] [cursor=pointer]:
+            - generic [ref=e25]: 
+          - button "Polling" [ref=e26] [cursor=pointer]:
+            - generic [ref=e27]: 
+          - button "Timer and Stopwatch" [ref=e28] [cursor=pointer]:
+            - generic [ref=e29]: 
+        - separator [ref=e30]
+        - generic [ref=e31]:
+          - button "Learning Analytics Dashboard" [ref=e32] [cursor=pointer]:
+            - generic [ref=e33]: 
+          - button "Settings" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]: 
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - heading "random-4810035" [level=1] [ref=e40]:
+            - button "random-4810035" [ref=e41] [cursor=pointer]:
+              - generic [ref=e42]: random-4810035
+              - generic [ref=e43]: 
+          - generic [ref=e44]:
+            - heading "Session control" [level=2] [ref=e45]
+            - button "View users' connection status" [ref=e47] [cursor=pointer]
+            - button "Leave" [ref=e56]:
+              - button "Leave" [ref=e57] [cursor=pointer]:
+                - generic [ref=e58]: 
+            - button "Options" [ref=e59]:
+              - button "Options" [ref=e60] [cursor=pointer]:
+                - generic [ref=e62]: 
+        - heading "Talking people" [level=2] [ref=e64]
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - heading "Shared Notes" [level=2] [ref=e67]
+          - button "Unpin notes" [ref=e69] [cursor=pointer]:
+            - generic [ref=e71]: 
+        - generic [ref=e74]:
+          - toolbar [ref=e75]:
+            - toolbar [ref=e76]:
+              - button [ref=e77] [cursor=pointer]:
+                - generic [ref=e78]:
+                  - img [ref=e80]
+                  - img [ref=e83]
+              - button "Bold" [ref=e85] [cursor=pointer]:
+                - img [ref=e87]
+              - button "Italic" [ref=e89] [cursor=pointer]:
+                - img [ref=e91]
+              - button "Underline" [ref=e93] [cursor=pointer]:
+                - img [ref=e95]
+              - button "Strike" [ref=e97] [cursor=pointer]:
+                - img [ref=e99]
+            - toolbar [ref=e101]:
+              - button "Colors" [ref=e102] [cursor=pointer]:
+                - generic [ref=e103]:
+                  - generic: A
+              - button "Align text left" [ref=e104] [cursor=pointer]:
+                - generic [ref=e105]:
+                  - img [ref=e107]
+                  - img [ref=e110]
+              - button "Nest block" [disabled] [ref=e112]:
+                - img [ref=e114]
+              - button "Unnest block" [disabled] [ref=e116]:
+                - img [ref=e118]
+          - textbox [ref=e120]:
+            - generic [ref=e124]:
+              - paragraph [ref=e125]
+              - text: Enter text or type '/' for commands
+      - region "Notifications Alt+T"
+      - region "Actions bar" [ref=e126]:
+        - heading "Actions bar" [level=2] [ref=e127]
+        - generic [ref=e128]:
+          - generic [ref=e129]:
+            - button "Join audio" [ref=e131] [cursor=pointer]:
+              - generic [ref=e133]: 
+            - button "Share webcam" [ref=e135] [cursor=pointer]:
+              - generic [ref=e137]: 
+            - button "Share your screen" [ref=e139] [cursor=pointer]:
+              - generic [ref=e141]: 
+            - button "Share a reaction" [ref=e142]:
+              - button "Share a reaction" [ref=e144] [cursor=pointer]:
+                - generic [ref=e146]: 
+            - button "Raise your hand" [ref=e147] [cursor=pointer]:
+              - generic [ref=e149]: 
+          - generic [ref=e151]:
+            - button "Minimize presentation" [ref=e152] [cursor=pointer]:
+              - generic [ref=e154]: 
+            - button "Media Area" [ref=e156] [cursor=pointer]:
+              - generic [ref=e158]: 
+```
