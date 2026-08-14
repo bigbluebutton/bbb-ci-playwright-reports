@@ -1,0 +1,71 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: New message from Public Chat
+  - main [ref=e3]:
+    - document [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - button "Profile" [ref=e10] [cursor=pointer]:
+              - generic [ref=e11]: 
+            - button "Participants" [ref=e12] [cursor=pointer]:
+              - generic [ref=e13]: 
+              - generic [ref=e15]: "1"
+          - separator [ref=e16]
+          - generic [ref=e17]:
+            - button "Apps Gallery" [ref=e18] [cursor=pointer]:
+              - generic [ref=e19]: 
+            - button "Breakout Rooms" [ref=e20] [cursor=pointer]:
+              - generic [ref=e21]: 
+            - button "Polling" [ref=e22] [cursor=pointer]:
+              - generic [ref=e23]: 
+            - button "Timer and Stopwatch" [ref=e24] [cursor=pointer]:
+              - generic [ref=e25]: 
+          - separator [ref=e26]
+          - generic [ref=e27]:
+            - button "Learning Analytics Dashboard" [ref=e28] [cursor=pointer]:
+              - generic [ref=e29]: 
+            - button "Settings" [ref=e30] [cursor=pointer]:
+              - generic [ref=e31]: 
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - heading "random-7342414" [level=1] [ref=e36]:
+              - button "random-7342414" [ref=e37] [cursor=pointer]:
+                - generic [ref=e38]: random-7342414
+                - generic [ref=e39]: 
+            - generic [ref=e40]:
+              - heading "Session control" [level=2] [ref=e41]
+              - button "View users' connection status" [ref=e43] [cursor=pointer]
+              - button "Leave" [ref=e52]:
+                - button "Leave" [ref=e53] [cursor=pointer]:
+                  - generic [ref=e54]: 
+              - button "Options" [ref=e55]:
+                - button "Options" [ref=e56] [cursor=pointer]:
+                  - generic [ref=e58]: 
+          - heading "Talking people" [level=2] [ref=e60]
+        - region [ref=e62]:
+          - heading "Cameras" [level=2] [ref=e63]
+          - generic [ref=e69]:
+            - generic [ref=e72]: Moderator (You)
+            - generic [ref=e74]: 
+        - region "Notifications Alt+T"
+        - region "Actions bar" [ref=e78]:
+          - heading "Actions bar" [level=2] [ref=e79]
+          - generic [ref=e80]:
+            - generic [ref=e81]:
+              - button "Join audio" [ref=e83] [cursor=pointer]:
+                - generic [ref=e85]: 
+              - button "Share webcam" [ref=e87] [cursor=pointer]:
+                - generic [ref=e89]: 
+              - button "Share your screen" [ref=e91] [cursor=pointer]:
+                - generic [ref=e93]: 
+              - button "Share a reaction" [ref=e94]:
+                - button "Share a reaction" [ref=e96] [cursor=pointer]:
+                  - generic [ref=e98]: 
+              - button "Raise your hand" [ref=e99] [cursor=pointer]:
+                - generic [ref=e101]: 
+            - button "Media Area" [ref=e104] [cursor=pointer]:
+              - generic [ref=e106]: 
+```
