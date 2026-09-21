@@ -1,0 +1,195 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - main [ref=e3]:
+    - document [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - button [ref=e10] [cursor=pointer]:
+              - generic [ref=e11]: 
+            - button [ref=e12] [cursor=pointer]:
+              - generic [ref=e13]: 
+              - generic [ref=e15]: "1"
+            - button [expanded] [ref=e16] [cursor=pointer]:
+              - generic [ref=e17]: 
+            - button [ref=e18] [cursor=pointer]:
+              - generic [ref=e19]: 
+          - separator [ref=e20]
+          - generic [ref=e21]:
+            - button [ref=e22] [cursor=pointer]:
+              - generic [ref=e23]: 
+            - button [ref=e24] [cursor=pointer]:
+              - generic [ref=e25]: 
+            - button [ref=e26] [cursor=pointer]:
+              - generic [ref=e27]: 
+            - button [ref=e28] [cursor=pointer]:
+              - generic [ref=e29]: 
+          - separator [ref=e30]
+          - generic [ref=e31]:
+            - button [ref=e32] [cursor=pointer]:
+              - generic [ref=e33]: 
+            - button [ref=e34] [cursor=pointer]:
+              - generic [ref=e35]: 
+        - generic [ref=e38]:
+          - heading [level=2] [ref=e39]: Messages
+          - generic [ref=e40]:
+            - heading [level=2] [ref=e41]: Messages
+            - button [ref=e43]:
+              - button [ref=e44] [cursor=pointer]:
+                - generic [ref=e46]: 
+            - button [ref=e48] [cursor=pointer]:
+              - generic [ref=e50]: 
+          - separator [ref=e51]
+          - generic [ref=e52]:
+            - list [ref=e56]:
+              - listitem [ref=e58]:
+                - paragraph [ref=e61]:
+                  - generic [ref=e62]: 
+                  - text: User1 is now the presenter
+            - button [ref=e64] [cursor=pointer]:
+              - generic [ref=e65]: 
+            - generic [ref=e68]:
+              - textbox [ref=e69]:
+                - /placeholder: Message Public Chat
+              - button [ref=e71] [cursor=pointer]:
+                - img [ref=e72]
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - heading [level=1] [ref=e80]:
+              - button [ref=e81] [cursor=pointer]:
+                - generic [ref=e82]: random-8432508
+                - generic [ref=e83]: 
+            - generic [ref=e84]:
+              - heading [level=2] [ref=e85]: Session control
+              - button [ref=e87] [cursor=pointer]
+              - button [ref=e96]:
+                - button [ref=e97] [cursor=pointer]:
+                  - generic [ref=e98]: 
+              - button [ref=e99]:
+                - button [ref=e100] [cursor=pointer]:
+                  - generic [ref=e102]: 
+          - heading [level=2] [ref=e104]: Talking people
+        - region [ref=e105]:
+          - heading [level=2] [ref=e106]: Presentation area
+          - generic [ref=e108]:
+            - generic [ref=e109]:
+              - generic [ref=e110]: "Slide content start Welcome To BigBlueButton BigBlueButton is an open source web conferencing system designed for online learning CHAT WEBCAMS AUDIO BREAKOUT ROOMS ! Send public and private \" Hold visual meetings. % Communicate using high ( Form teams of users for messages. quality audio. group work. t POLLING EMOJIS SCREEN SHARING MULTI-USER WHITEBOARD # Poll your users anytime. & Express yourself. $ Share your screen. ' Draw together. For more information visit bigbluebutton.org ➔ Slide content end"
+              - generic [ref=e111]:
+                - button [ref=e112] [cursor=pointer]
+                - button [ref=e114] [cursor=pointer]
+              - button [ref=e117] [cursor=pointer]:
+                - button [ref=e118]:
+                  - img [ref=e119]
+              - generic [ref=e122]:
+                - generic [ref=e123]:
+                  - img
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic [ref=e128]:
+                            - button [ref=e129] [cursor=pointer]
+                            - button [ref=e131] [cursor=pointer]
+                            - button [ref=e133] [cursor=pointer]
+                            - button [ref=e135] [cursor=pointer]
+                            - button [ref=e137] [cursor=pointer]
+                            - button [ref=e139] [cursor=pointer]
+                            - button [ref=e141] [cursor=pointer]
+                            - button [ref=e143] [cursor=pointer]
+                            - button [ref=e145] [cursor=pointer]
+                            - button [ref=e147] [cursor=pointer]
+                            - button [ref=e149] [cursor=pointer]
+                            - button [ref=e152] [cursor=pointer]
+                          - button [ref=e156] [cursor=pointer]
+            - generic [ref=e158]:
+              - generic [ref=e160]:
+                - button [disabled] [ref=e161] [cursor=pointer]:
+                  - generic [ref=e163]: 
+                - combobox [ref=e164] [cursor=pointer]
+                - button [ref=e165] [cursor=pointer]:
+                  - generic [ref=e167]: 
+              - generic [ref=e168]:
+                - button [ref=e169] [cursor=pointer]:
+                  - generic [ref=e171]: 
+                - button [ref=e173]:
+                  - button [disabled] [ref=e174] [cursor=pointer]:
+                    - generic [ref=e176]: 
+                - button [disabled] [ref=e178]: 100%
+                - button [ref=e179]:
+                  - button [ref=e180] [cursor=pointer]:
+                    - generic [ref=e182]: 
+                - button [ref=e183] [cursor=pointer]:
+                  - generic [ref=e185]: 
+        - region [ref=e187]:
+          - heading [level=2] [ref=e188]: Actions bar
+          - generic [ref=e189]:
+            - generic [ref=e190]:
+              - button [ref=e192] [cursor=pointer]:
+                - generic [ref=e194]: 
+              - button [ref=e196] [cursor=pointer]:
+                - generic [ref=e198]: 
+              - button [ref=e200] [cursor=pointer]:
+                - generic [ref=e202]: 
+              - button [ref=e203]:
+                - button [ref=e205] [cursor=pointer]:
+                  - generic [ref=e207]: 
+              - button [ref=e208] [cursor=pointer]:
+                - generic [ref=e210]: 
+              - button [ref=e212] [cursor=pointer]:
+                - img [ref=e215]
+              - generic [ref=e220]:
+                - generic [ref=e221]: Selector
+                - generic [ref=e222]:
+                  - combobox [ref=e223] [cursor=pointer]: five
+                  - textbox: "5"
+                  - img
+                  - group
+              - generic [ref=e225]: 
+              - generic [ref=e227]:
+                - generic [ref=e228]: Toggle
+                - group [ref=e230]:
+                  - button [ref=e231] [cursor=pointer]: one
+                  - button [pressed] [ref=e232] [cursor=pointer]: two
+            - generic [ref=e234]:
+              - button [ref=e235] [cursor=pointer]:
+                - generic [ref=e237]: 
+              - button [ref=e239] [cursor=pointer]:
+                - generic [ref=e241]: 
+  - dialog "Join audio modal" [active] [ref=e243]:
+    - generic [ref=e244]:
+      - paragraph [ref=e245]: Your audio settings
+      - button "close" [ref=e246] [cursor=pointer]:
+        - img [ref=e247]
+    - separator [ref=e250]
+    - generic [ref=e254]:
+      - generic [ref=e255]: To fine-tune your settings, try speaking to check how your input and output devices are working.
+      - generic [ref=e256]:
+        - generic [ref=e258]:
+          - text: Microphone
+          - combobox [ref=e259]:
+            - option "Fake Default Audio Input" [selected]
+            - option "Fake Audio Input 1"
+            - option "Fake Audio Input 2"
+            - option "No microphone (listen only)"
+        - generic [ref=e260]:
+          - text: Audio volume
+          - meter [ref=e261]
+        - generic [ref=e263]:
+          - text: Speaker
+          - combobox [ref=e264]:
+            - option "Fake Default Audio Output" [selected]
+            - option "Fake Audio Output 1"
+            - option "Fake Audio Output 2"
+        - generic [ref=e265]:
+          - text: Test your speaker
+          - button "Stop audio feedback" [ref=e266] [cursor=pointer]:
+            - generic [ref=e267]: 
+            - text: Stop audio feedback
+    - separator [ref=e268]
+    - generic [ref=e270]:
+      - button "Cancel" [ref=e271] [cursor=pointer]
+      - button "Join audio" [ref=e272] [cursor=pointer]
+```
