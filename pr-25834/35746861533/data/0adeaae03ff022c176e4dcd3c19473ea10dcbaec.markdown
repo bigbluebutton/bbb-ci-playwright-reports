@@ -1,0 +1,184 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - main [ref=e3]:
+    - document [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - button [ref=e10] [cursor=pointer]:
+              - generic [ref=e11]: 
+            - button [expanded] [ref=e12] [cursor=pointer]:
+              - generic [ref=e13]: 
+              - generic [ref=e15]: "1"
+            - button [ref=e16] [cursor=pointer]:
+              - generic [ref=e17]: 
+            - button [ref=e18] [cursor=pointer]:
+              - generic [ref=e19]: 
+          - separator [ref=e20]
+          - generic [ref=e21]:
+            - button [ref=e22] [cursor=pointer]:
+              - generic [ref=e23]: 
+            - button [ref=e24] [cursor=pointer]:
+              - generic [ref=e25]: 
+            - button [ref=e26] [cursor=pointer]:
+              - generic [ref=e27]: 
+            - button [ref=e28] [cursor=pointer]:
+              - generic [ref=e29]: 
+          - separator [ref=e30]
+          - generic [ref=e31]:
+            - button [ref=e32] [cursor=pointer]:
+              - generic [ref=e33]: 
+            - button [ref=e34] [cursor=pointer]:
+              - generic [ref=e35]: 
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - heading [level=2] [ref=e41]: Users (1)
+            - button [ref=e43] [cursor=pointer]:
+              - generic [ref=e45]: 
+            - button [ref=e47] [cursor=pointer]:
+              - generic [ref=e49]: 
+          - separator [ref=e50]
+          - generic [ref=e51]:
+            - generic [ref=e52]: 
+            - textbox [ref=e53]:
+              - /placeholder: Search users
+          - list [ref=e55]:
+            - list [ref=e56]:
+              - listitem [ref=e57]:
+                - listitem [ref=e58]:
+                  - generic [ref=e61]:
+                    - generic [ref=e63]: Moderator (You)
+                    - generic [ref=e64]: Presenter | Moderator
+          - separator [ref=e65]
+          - generic [ref=e66]:
+            - generic [ref=e67]:
+              - generic [ref=e68]: Mute all users except presenter
+              - button [ref=e69] [cursor=pointer]:
+                - generic [ref=e70]: 
+            - generic [ref=e71]:
+              - generic [ref=e72]: Permissions and Policies
+              - button [ref=e73] [cursor=pointer]:
+                - generic [ref=e74]: 
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - heading [level=1] [ref=e80]:
+              - button [ref=e81] [cursor=pointer]:
+                - generic [ref=e82]: random-8766483
+                - generic [ref=e83]: 
+            - generic [ref=e84]:
+              - heading [level=2] [ref=e85]: Session control
+              - button [ref=e87] [cursor=pointer]
+              - button [ref=e96]:
+                - button [ref=e97] [cursor=pointer]:
+                  - generic [ref=e98]: 
+              - button [ref=e99]:
+                - button [ref=e100] [cursor=pointer]:
+                  - generic [ref=e102]: 
+          - heading [level=2] [ref=e104]: Talking people
+        - region [ref=e105]:
+          - heading [level=2] [ref=e106]: Presentation area
+          - generic [ref=e108]:
+            - generic [ref=e109]:
+              - generic [ref=e110]: "Slide content start Welcome To BigBlueButton BigBlueButton is an open source web conferencing system designed for online learning CHAT WEBCAMS AUDIO BREAKOUT ROOMS ! Send public and private \" Hold visual meetings. % Communicate using high ( Form teams of users for messages. quality audio. group work. t POLLING EMOJIS SCREEN SHARING MULTI-USER WHITEBOARD # Poll your users anytime. & Express yourself. $ Share your screen. ' Draw together. For more information visit bigbluebutton.org ➔ Slide content end"
+              - generic [ref=e111]:
+                - button [ref=e112] [cursor=pointer]
+                - button [ref=e114] [cursor=pointer]
+              - button [ref=e117] [cursor=pointer]:
+                - button [ref=e118]:
+                  - img [ref=e119]
+              - generic [ref=e122]:
+                - generic [ref=e123]:
+                  - img
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic [ref=e128]:
+                            - button [ref=e129] [cursor=pointer]
+                            - button [ref=e131] [cursor=pointer]
+                            - button [ref=e133] [cursor=pointer]
+                            - button [ref=e135] [cursor=pointer]
+                            - button [ref=e137] [cursor=pointer]
+                            - button [ref=e139] [cursor=pointer]
+                            - button [ref=e141] [cursor=pointer]
+                            - button [ref=e143] [cursor=pointer]
+                            - button [ref=e145] [cursor=pointer]
+                            - button [ref=e147] [cursor=pointer]
+                            - button [ref=e149] [cursor=pointer]
+                            - button [ref=e152] [cursor=pointer]
+                          - button [ref=e156] [cursor=pointer]
+            - generic [ref=e158]:
+              - generic [ref=e160]:
+                - button [disabled] [ref=e161] [cursor=pointer]:
+                  - generic [ref=e163]: 
+                - combobox [ref=e164] [cursor=pointer]
+                - button [ref=e165] [cursor=pointer]:
+                  - generic [ref=e167]: 
+              - generic [ref=e168]:
+                - button [ref=e169] [cursor=pointer]:
+                  - generic [ref=e171]: 
+                - button [ref=e173]:
+                  - button [disabled] [ref=e174] [cursor=pointer]:
+                    - generic [ref=e176]: 
+                - button [disabled] [ref=e178]: 100%
+                - button [ref=e179]:
+                  - button [ref=e180] [cursor=pointer]:
+                    - generic [ref=e182]: 
+                - button [ref=e183] [cursor=pointer]:
+                  - generic [ref=e185]: 
+        - region [ref=e186]:
+          - heading [level=2] [ref=e187]: Actions bar
+          - generic [ref=e188]:
+            - generic [ref=e189]:
+              - button [ref=e191] [cursor=pointer]:
+                - generic [ref=e193]: 
+              - button [ref=e195] [cursor=pointer]:
+                - generic [ref=e197]: 
+              - button [ref=e199] [cursor=pointer]:
+                - generic [ref=e201]: 
+              - button [ref=e202]:
+                - button [ref=e204] [cursor=pointer]:
+                  - generic [ref=e206]: 
+              - button [ref=e207] [cursor=pointer]:
+                - generic [ref=e209]: 
+            - generic [ref=e211]:
+              - button [ref=e212] [cursor=pointer]:
+                - generic [ref=e214]: 
+              - button [ref=e216] [cursor=pointer]:
+                - generic [ref=e218]: 
+  - dialog "Permissions and Policies" [ref=e220]:
+    - generic [ref=e221]:
+      - banner [ref=e222]:
+        - heading "Permissions and Policies" [level=2] [ref=e223]
+        - button "Close Permissions and Policies" [ref=e224] [cursor=pointer]:
+          - generic [ref=e226]: 
+      - generic [ref=e227]:
+        - tablist [ref=e228]:
+          - tab "Participant Permissions" [ref=e229] [cursor=pointer]:
+            - generic [ref=e230]: 
+            - generic [ref=e231]: Participant Permissions
+          - tab "Guest Policy" [active] [selected] [ref=e232] [cursor=pointer]:
+            - generic [ref=e233]: 
+            - generic [ref=e234]: Guest Policy
+          - tab "Presentation Policy" [ref=e235] [cursor=pointer]:
+            - generic [ref=e236]: 
+            - generic [ref=e237]: Presentation Policy
+        - tabpanel "Guest Policy" [ref=e238]:
+          - generic [ref=e239]:
+            - heading "Guest Policy" [level=3] [ref=e240]
+            - paragraph [ref=e241]: Configure how guests are handled when trying to join the meeting.
+            - generic [ref=e242]:
+              - combobox [ref=e243] [cursor=pointer]: Always accept
+              - textbox: ALWAYS_ACCEPT
+              - img
+              - group
+            - generic [ref=e245]:
+              - checkbox [ref=e248] [cursor=pointer]
+              - generic [ref=e251] [cursor=pointer]: Message to the guests' lobby
+        - generic [ref=e252]:
+          - button "Cancel" [ref=e253] [cursor=pointer]
+          - button "Apply" [ref=e254] [cursor=pointer]
+```
