@@ -1,0 +1,209 @@
+# Page snapshot
+
+```yaml
+- main [ref=e3]:
+  - document [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - button "Profile" [ref=e10] [cursor=pointer]:
+            - generic [ref=e11]: 
+          - button "Participants" [expanded] [ref=e12] [cursor=pointer]:
+            - generic [ref=e13]: 
+            - generic [ref=e15]: "3"
+          - button "Messages" [ref=e16] [cursor=pointer]:
+            - generic [ref=e17]: 
+          - button "Shared Notes" [ref=e18] [cursor=pointer]:
+            - generic [ref=e19]: 
+        - separator [ref=e20]
+        - generic [ref=e21]:
+          - button "Apps Gallery" [ref=e22] [cursor=pointer]:
+            - generic [ref=e23]: 
+          - button "Breakout Rooms" [ref=e24] [cursor=pointer]:
+            - generic [ref=e25]: 
+          - button "Polling" [ref=e26] [cursor=pointer]:
+            - generic [ref=e27]: 
+          - button "Timer and Stopwatch" [ref=e28] [cursor=pointer]:
+            - generic [ref=e29]: 
+        - separator [ref=e30]
+        - generic [ref=e31]:
+          - button "Learning Analytics Dashboard" [ref=e32] [cursor=pointer]:
+            - generic [ref=e33]: 
+          - button "Settings" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]: 
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - heading "Users (3)" [level=2] [ref=e41]
+          - button "Save user names" [ref=e43] [cursor=pointer]:
+            - generic [ref=e45]: 
+          - button "Minimize User List" [ref=e47] [cursor=pointer]:
+            - generic [ref=e49]: 
+        - separator [ref=e50]
+        - generic [ref=e51]:
+          - generic [ref=e52]: 
+          - textbox "Search users" [ref=e53]
+        - list [ref=e55]:
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - listitem "Moderator" [ref=e58]:
+                - generic [ref=e61]:
+                  - generic [ref=e63]: Moderator (You)
+                  - generic [ref=e64]:
+                    - text: Presenter | Moderator |
+                    - generic [ref=e65]:  Webcam
+            - listitem [ref=e66]:
+              - listitem "Attendee" [ref=e67]:
+                - generic [ref=e70]:
+                  - generic [ref=e72]: Attendee
+                  - generic [ref=e73]:
+                    - generic [ref=e74]:  Locked
+                    - text: "|"
+                    - generic [ref=e75]:  Webcam
+                - generic [ref=e76]:
+                  - generic [ref=e78] [cursor=pointer]: 
+                  - generic [ref=e80] [cursor=pointer]: 
+                  - generic [ref=e81]: "|"
+                  - button [ref=e82]:
+                    - generic [ref=e84] [cursor=pointer]: 
+            - listitem [ref=e85]:
+              - listitem "Attendee2" [ref=e86]:
+                - generic [ref=e89]:
+                  - generic [ref=e91]: Attendee2
+                  - generic [ref=e93]:  Webcam
+                - generic [ref=e94]:
+                  - generic [ref=e96] [cursor=pointer]: 
+                  - generic [ref=e98] [cursor=pointer]: 
+                  - generic [ref=e99]: "|"
+                  - button [active] [ref=e100]:
+                    - generic [ref=e102] [cursor=pointer]: 
+        - separator [ref=e103]
+        - generic [ref=e104]:
+          - generic [ref=e105]:
+            - generic [ref=e106]: Mute all users except presenter
+            - button "Mutes all users in the session except the presenter" [ref=e107] [cursor=pointer]:
+              - generic [ref=e108]: 
+          - generic [ref=e109]:
+            - generic [ref=e110]: Permissions and Policies
+            - button "Restrict participants from using specific features." [ref=e111] [cursor=pointer]:
+              - generic [ref=e112]: 
+      - generic [ref=e114]:
+        - generic [ref=e115]:
+          - heading "random-5898602" [level=1] [ref=e118]:
+            - button "random-5898602" [ref=e119] [cursor=pointer]:
+              - generic [ref=e120]: random-5898602
+              - generic [ref=e121]: 
+          - generic [ref=e122]:
+            - heading "Session control" [level=2] [ref=e123]
+            - button "View users' connection status" [ref=e125] [cursor=pointer]
+            - button "Leave" [ref=e134]:
+              - button "Leave" [ref=e135] [cursor=pointer]:
+                - generic [ref=e136]: 
+            - button "Options" [ref=e137]:
+              - button "Options" [ref=e138] [cursor=pointer]:
+                - generic [ref=e140]: 
+        - heading "Talking people" [level=2] [ref=e141]
+      - region [ref=e143]:
+        - heading "Cameras" [level=2] [ref=e144]
+        - generic [ref=e146]:
+          - generic [ref=e148]:
+            - button "Presenter" [ref=e153]:
+              - generic [ref=e154]: 
+            - button "Moderator (You) ›" [ref=e157]:
+              - button "Moderator (You) ›" [ref=e158] [cursor=pointer]
+          - button "Attendee ›" [ref=e164]:
+            - button "Attendee ›" [ref=e165] [cursor=pointer]
+          - button "Attendee2 ›" [ref=e174]:
+            - button "Attendee2 ›" [ref=e175] [cursor=pointer]
+      - region [ref=e180]:
+        - heading "Presentation area" [level=2] [ref=e181]
+        - generic [ref=e183]:
+          - generic [ref=e184]:
+            - generic [ref=e185]: "Slide content start Welcome To BigBlueButton BigBlueButton is an open source web conferencing system designed for online learning CHAT WEBCAMS AUDIO BREAKOUT ROOMS ! Send public and private \" Hold visual meetings. % Communicate using high ( Form teams of users for messages. quality audio. group work. t POLLING EMOJIS SCREEN SHARING MULTI-USER WHITEBOARD # Poll your users anytime. & Express yourself. $ Share your screen. ' Draw together. For more information visit bigbluebutton.org ➔ Slide content end"
+            - generic [ref=e186]:
+              - button "Undo" [ref=e187] [cursor=pointer]
+              - button "Redo" [ref=e189] [cursor=pointer]
+            - button "Whiteboard Whiteboard options" [ref=e192] [cursor=pointer]:
+              - button "Whiteboard Whiteboard options" [ref=e193]:
+                - img [ref=e194]
+            - generic [ref=e197]:
+              - generic [ref=e198]:
+                - img
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic [ref=e203]:
+                          - button "Select — V" [ref=e204] [cursor=pointer]
+                          - button "Hand — H" [ref=e206] [cursor=pointer]
+                          - button "Highlight — ⇧ D" [ref=e208] [cursor=pointer]
+                          - button "Draw — D" [ref=e210] [cursor=pointer]
+                          - button "Eraser — E" [ref=e212] [cursor=pointer]
+                          - button "Arrow — A" [ref=e214] [cursor=pointer]
+                          - button "Text — T" [ref=e216] [cursor=pointer]
+                          - button "Note — N" [ref=e218] [cursor=pointer]
+                          - button "Rectangle — R" [ref=e220] [cursor=pointer]
+                          - button "Ellipse — O" [ref=e222] [cursor=pointer]
+                          - button "More" [ref=e224] [cursor=pointer]
+                          - button "Actions" [ref=e227] [cursor=pointer]
+                        - button "Styles" [ref=e231] [cursor=pointer]
+          - generic [ref=e233]:
+            - generic [ref=e235]:
+              - button "Previous slide" [disabled] [ref=e236] [cursor=pointer]:
+                - generic [ref=e238]: 
+              - combobox "Skip slide" [ref=e239] [cursor=pointer]:
+                - option "Slide 1" [selected]
+                - option "Slide 2"
+                - option "Slide 3"
+                - option "Slide 4"
+                - option "Slide 5"
+                - option "Slide 6"
+                - option "Slide 7"
+                - option "Slide 8"
+                - option "Slide 9"
+                - option "Slide 10"
+                - option "Slide 11"
+                - option "Slide 12"
+                - option "Slide 13"
+                - option "Slide 14"
+                - option "Slide 15"
+              - button "Next slide (2)" [ref=e240] [cursor=pointer]:
+                - generic [ref=e242]: 
+            - generic [ref=e243]:
+              - button "Turn multi-user whiteboard on" [ref=e244] [cursor=pointer]:
+                - generic [ref=e246]: 
+              - button "Zoom out" [ref=e248]:
+                - button "Zoom out" [disabled] [ref=e249] [cursor=pointer]:
+                  - generic [ref=e251]: 
+              - button "Reset Zoom" [disabled] [ref=e253]: 100%
+              - button "Zoom in 125%" [ref=e254]:
+                - button "Zoom in 125%" [ref=e255] [cursor=pointer]:
+                  - generic [ref=e257]: 
+              - button "Presentation Fit to width" [ref=e258] [cursor=pointer]:
+                - generic [ref=e260]: 
+      - region "Notifications Alt+T"
+      - region "Actions bar" [ref=e261]:
+        - heading "Actions bar" [level=2] [ref=e262]
+        - generic [ref=e263]:
+          - generic [ref=e264]:
+            - button "Join audio" [ref=e266] [cursor=pointer]:
+              - generic [ref=e268]: 
+            - generic [ref=e269]:
+              - button "Stop sharing webcam" [ref=e270] [cursor=pointer]:
+                - generic [ref=e272]: 
+              - button "Video settings":
+                - button "Video settings" [ref=e274]:
+                  - generic [ref=e275]: 
+            - button "Share your screen" [ref=e277] [cursor=pointer]:
+              - generic [ref=e279]: 
+            - button "Share a reaction" [ref=e280]:
+              - button "Share a reaction" [ref=e282] [cursor=pointer]:
+                - generic [ref=e284]: 
+            - button "Raise your hand" [ref=e285] [cursor=pointer]:
+              - generic [ref=e287]: 
+          - generic [ref=e289]:
+            - button "Minimize presentation" [ref=e290] [cursor=pointer]:
+              - generic [ref=e292]: 
+            - button "Media Area" [ref=e294] [cursor=pointer]:
+              - generic [ref=e296]: 
+```
