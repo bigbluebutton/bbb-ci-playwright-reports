@@ -1,0 +1,43 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: New message from Public Chat
+  - main [ref=e3]:
+    - document [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - heading "random-4011513" [level=1] [ref=e9]:
+              - button "random-4011513" [ref=e10] [cursor=pointer]:
+                - text: random-4011513
+                - generic [ref=e11]: 
+            - generic [ref=e12]:
+              - heading "Session control" [level=2] [ref=e13]
+              - button "View users' connection status" [ref=e15] [cursor=pointer]
+              - button "Leave" [ref=e24]:
+                - button "Leave" [ref=e25] [cursor=pointer]:
+                  - generic [ref=e26]: 
+              - button "Options" [ref=e27]:
+                - button "Options" [ref=e28] [cursor=pointer]:
+                  - generic [ref=e30]: 
+          - heading "Talking people" [level=2] [ref=e32]
+        - region
+        - region "Notifications Alt+T"
+        - region "Actions bar" [ref=e33]:
+          - heading "Actions bar" [level=2] [ref=e34]
+          - generic [ref=e35]:
+            - button "Actions" [ref=e37]:
+              - button "Actions" [ref=e38] [cursor=pointer]:
+                - generic [ref=e40]: 
+            - generic [ref=e41]:
+              - button "Join audio" [ref=e43] [cursor=pointer]:
+                - generic [ref=e45]: 
+              - button "Share webcam" [ref=e47] [cursor=pointer]:
+                - generic [ref=e49]: 
+              - button "Share a reaction" [ref=e50]:
+                - button "Share a reaction" [ref=e52] [cursor=pointer]:
+                  - img [ref=e55]
+            - button "Raise your hand" [ref=e60] [cursor=pointer]:
+              - generic [ref=e62]: 
+```
