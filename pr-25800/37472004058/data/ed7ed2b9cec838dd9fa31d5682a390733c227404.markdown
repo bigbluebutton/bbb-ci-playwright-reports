@@ -58,9 +58,9 @@
                 - img [ref=e72]
         - generic [ref=e76]:
           - generic [ref=e77]:
-            - heading "random-8499187" [level=1] [ref=e80]:
-              - button "random-8499187" [ref=e81] [cursor=pointer]:
-                - generic [ref=e82]: random-8499187
+            - heading "random-5440407" [level=1] [ref=e80]:
+              - button "random-5440407" [ref=e81] [cursor=pointer]:
+                - generic [ref=e82]: random-5440407
                 - generic [ref=e83]: 
             - generic [ref=e84]:
               - heading "Session control" [level=2] [ref=e85]
