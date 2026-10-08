@@ -1,0 +1,14 @@
+# Page snapshot
+
+```yaml
+- main [ref=e3]:
+  - document [ref=e4]:
+    - generic [ref=e7]:
+      - heading "Moderator has ended this session" [level=1] [ref=e8]
+      - generic [ref=e9]:
+        - generic [ref=e10]: Open Learning Analytics Dashboard
+        - button [ref=e11] [cursor=pointer]:
+          - generic [ref=e12]: 
+        - generic [ref=e13]: Press the button to continue to the home screen.
+        - button "OK" [ref=e14] [cursor=pointer]
+```

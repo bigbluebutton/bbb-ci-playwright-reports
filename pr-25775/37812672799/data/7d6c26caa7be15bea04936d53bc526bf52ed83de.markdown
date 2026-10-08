@@ -1,0 +1,349 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: tests/behavioral/single-user.spec.ts >> Pick Random User Plugin - Behavioural (single user) >> should show "Pick next random user" button (not "Pick random user") after closing the picked-user modal when includePickedUsers is enabled
+- Location: tests/behavioral/single-user.spec.ts:103:7
+
+# Error details
+
+```
+Error: plugin should be listed in the apps gallery
+
+expect(locator).toBeVisible() failed
+
+Locator: locator('div[data-test="apps_gallery_item_pickRandomUser"]')
+Expected: visible
+Timeout: 20000ms
+Error: element(s) not found
+
+Call log:
+  - plugin should be listed in the apps gallery with timeout 20000ms
+  - waiting for locator('div[data-test="apps_gallery_item_pickRandomUser"]')
+
+```
+
+# Page snapshot
+
+```yaml
+- main [ref=e3]:
+  - document [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - button "Profile" [ref=e10] [cursor=pointer]:
+            - generic [ref=e11]: 
+          - button "Participants" [ref=e12] [cursor=pointer]:
+            - generic [ref=e13]: 
+            - generic [ref=e15]: "1"
+          - button "Messages" [ref=e16] [cursor=pointer]:
+            - generic [ref=e17]: 
+          - button "Shared Notes" [ref=e18] [cursor=pointer]:
+            - generic [ref=e19]: 
+        - separator [ref=e20]
+        - generic [ref=e21]:
+          - button "Apps Gallery" [expanded] [active] [ref=e22] [cursor=pointer]:
+            - generic [ref=e23]: 
+          - button "Breakout Rooms" [ref=e24] [cursor=pointer]:
+            - generic [ref=e25]: 
+          - button "Polling" [ref=e26] [cursor=pointer]:
+            - generic [ref=e27]: 
+          - button "Timer and Stopwatch" [ref=e28] [cursor=pointer]:
+            - generic [ref=e29]: 
+        - separator [ref=e30]
+        - generic [ref=e31]:
+          - button "Learning Analytics Dashboard" [ref=e32] [cursor=pointer]:
+            - generic [ref=e33]: 
+          - button "Settings" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]: 
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - heading "Apps Gallery" [level=2] [ref=e40]
+          - button "Minimize Apps Gallery" [ref=e42] [cursor=pointer]:
+            - generic [ref=e44]: 
+        - separator [ref=e45]
+        - generic [ref=e46]:
+          - generic [ref=e47]: 
+          - textbox "Search" [ref=e48]
+        - generic [ref=e49]:
+          - generic [ref=e50]: 3 out of 3 pinned apps in the sidebar.
+          - generic [ref=e51]:
+            - button "Not enough space for grid view — expand the panel to use it" [disabled] [ref=e52]:
+              - generic [ref=e53]: 
+            - button "List view" [pressed] [ref=e54] [cursor=pointer]:
+              - generic [ref=e55]: 
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - button "Breakout Rooms" [ref=e59] [cursor=pointer]:
+              - generic [ref=e61]: 
+              - generic [ref=e62]: Breakout Rooms
+            - button "Unpin app" [pressed] [ref=e63] [cursor=pointer]:
+              - generic [ref=e64]: 
+          - generic [ref=e65]:
+            - button "Polling" [ref=e66] [cursor=pointer]:
+              - generic [ref=e68]: 
+              - generic [ref=e69]: Polling
+            - button "Unpin app" [pressed] [ref=e70] [cursor=pointer]:
+              - generic [ref=e71]: 
+          - generic [ref=e72]:
+            - button "Timer and Stopwatch" [ref=e73] [cursor=pointer]:
+              - generic [ref=e75]: 
+              - generic [ref=e76]: Timer and Stopwatch
+            - button "Unpin app" [pressed] [ref=e77] [cursor=pointer]:
+              - generic [ref=e78]: 
+      - generic [ref=e80]:
+        - generic [ref=e81]:
+          - heading "random-4247083" [level=1] [ref=e84]:
+            - button "random-4247083" [ref=e85] [cursor=pointer]:
+              - generic [ref=e86]: random-4247083
+              - generic [ref=e87]: 
+          - generic [ref=e88]:
+            - heading "Session control" [level=2] [ref=e89]
+            - button "View users' connection status" [ref=e91] [cursor=pointer]
+            - button "Leave" [ref=e100]:
+              - button "Leave" [ref=e101] [cursor=pointer]:
+                - generic [ref=e102]: 
+            - button "Options" [ref=e103]:
+              - button "Options" [ref=e104] [cursor=pointer]:
+                - generic [ref=e106]: 
+        - heading "Talking people" [level=2] [ref=e108]
+      - region [ref=e109]:
+        - heading "Presentation area" [level=2] [ref=e110]
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - generic [ref=e114]: "Slide content start Welcome To BigBlueButton BigBlueButton is an open source web conferencing system designed for online learning CHAT WEBCAMS AUDIO BREAKOUT ROOMS ! Send public and private \" Hold visual meetings. % Communicate using high ( Form teams of users for messages. quality audio. group work. t POLLING EMOJIS SCREEN SHARING MULTI-USER WHITEBOARD # Poll your users anytime. & Express yourself. $ Share your screen. ' Draw together. For more information visit bigbluebutton.org ➔ Slide content end"
+            - generic [ref=e115]:
+              - button "Undo" [ref=e116] [cursor=pointer]
+              - button "Redo" [ref=e118] [cursor=pointer]
+            - button "Whiteboard Whiteboard options" [ref=e121] [cursor=pointer]:
+              - button "Whiteboard Whiteboard options" [ref=e122]:
+                - img [ref=e123]
+            - generic [ref=e126]:
+              - generic [ref=e127]:
+                - img
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic [ref=e132]:
+                          - button "Select — V" [ref=e133] [cursor=pointer]
+                          - button "Hand — H" [ref=e135] [cursor=pointer]
+                          - button "Highlight — ⇧ D" [ref=e137] [cursor=pointer]
+                          - button "Draw — D" [ref=e139] [cursor=pointer]
+                          - button "Eraser — E" [ref=e141] [cursor=pointer]
+                          - button "Arrow — A" [ref=e143] [cursor=pointer]
+                          - button "Text — T" [ref=e145] [cursor=pointer]
+                          - button "Note — N" [ref=e147] [cursor=pointer]
+                          - button "Rectangle — R" [ref=e149] [cursor=pointer]
+                          - button "Ellipse — O" [ref=e151] [cursor=pointer]
+                          - button "More" [ref=e153] [cursor=pointer]
+                          - button "Actions" [ref=e156] [cursor=pointer]
+                        - button "Styles" [ref=e160] [cursor=pointer]
+          - generic [ref=e162]:
+            - generic [ref=e164]:
+              - button "Previous slide" [disabled] [ref=e165] [cursor=pointer]:
+                - generic [ref=e167]: 
+              - combobox "Skip slide" [ref=e168] [cursor=pointer]:
+                - option "Slide 1" [selected]
+                - option "Slide 2"
+                - option "Slide 3"
+                - option "Slide 4"
+                - option "Slide 5"
+                - option "Slide 6"
+                - option "Slide 7"
+                - option "Slide 8"
+                - option "Slide 9"
+                - option "Slide 10"
+                - option "Slide 11"
+                - option "Slide 12"
+                - option "Slide 13"
+                - option "Slide 14"
+                - option "Slide 15"
+              - button "Next slide (2)" [ref=e169] [cursor=pointer]:
+                - generic [ref=e171]: 
+            - generic [ref=e172]:
+              - button "Turn multi-user whiteboard on" [ref=e173] [cursor=pointer]:
+                - generic [ref=e175]: 
+              - generic [ref=e177]:
+                - button "Zoom out" [ref=e178]:
+                  - button "Zoom out" [disabled] [ref=e179] [cursor=pointer]:
+                    - generic [ref=e181]: 
+                - button "Reset Zoom" [disabled] [ref=e183]: 100%
+                - button "Zoom in 125%" [ref=e184]:
+                  - button "Zoom in 125%" [ref=e185] [cursor=pointer]:
+                    - generic [ref=e187]: 
+              - button "Presentation Fit to width" [ref=e188] [cursor=pointer]:
+                - generic [ref=e190]: 
+      - region "Notifications Alt+T"
+      - region "Actions bar" [ref=e191]:
+        - heading "Actions bar" [level=2] [ref=e192]
+        - generic [ref=e193]:
+          - generic [ref=e194]:
+            - button "Unmute Change audio device" [ref=e195]:
+              - generic [ref=e196]:
+                - button "Unmute" [ref=e198] [cursor=pointer]:
+                  - generic [ref=e200]: 
+                - button "Change audio device" [ref=e202]:
+                  - generic [ref=e203]: 
+            - button "Share webcam" [ref=e205] [cursor=pointer]:
+              - generic [ref=e207]: 
+            - button "Share your screen" [ref=e209] [cursor=pointer]:
+              - generic [ref=e211]: 
+            - button "Share a reaction" [ref=e212]:
+              - button "Share a reaction" [ref=e214] [cursor=pointer]:
+                - generic [ref=e216]: 
+            - button "Raise your hand" [ref=e217] [cursor=pointer]:
+              - generic [ref=e219]: 
+          - generic [ref=e221]:
+            - button "Minimize presentation" [ref=e222] [cursor=pointer]:
+              - generic [ref=e224]: 
+            - button "Media Area" [ref=e226] [cursor=pointer]:
+              - generic [ref=e228]: 
+```
+
+# Test source
+
+```ts
+  1   | import {
+  2   |   expect, Page, Browser, Locator,
+  3   | } from '@playwright/test';
+  4   | import { ELEMENT_WAIT_EXTRA_LONG_TIME, ELEMENT_WAIT_TIME } from './constants';
+  5   | import * as parameters from './parameters';
+  6   | import {
+  7   |   createMeeting, generateSettingsData, getJoinURL, SessionSettings,
+  8   | } from './helpers';
+  9   | import { coreElements as e } from './coreElements';
+  10  | 
+  11  | interface PageProps {
+  12  |   browser: Browser;
+  13  |   page: Page;
+  14  | }
+  15  | 
+  16  | export interface InitOptions {
+  17  |   fullName?: string;
+  18  |   createParameter?: string;
+  19  |   joinParameter?: string;
+  20  |   shouldCloseAudioModal?: boolean;
+  21  |   skipSessionDetailsModal?: boolean;
+  22  |   shouldCheckAllInitialSteps?: boolean;
+  23  | }
+  24  | 
+  25  | interface InitFunctionParameters {
+  26  |   isModerator: boolean;
+  27  |   shouldCloseAudioModal: boolean;
+  28  |   initOptions: InitOptions;
+  29  | }
+  30  | 
+  31  | export interface InitParameters {
+  32  |   server: string | undefined;
+  33  |   secret: string | undefined;
+  34  |   welcome: string;
+  35  |   fullName: string;
+  36  |   moderatorPW: string;
+  37  |   attendeePW: string;
+  38  | }
+  39  | 
+  40  | export class SessionPage {
+  41  |   readonly page: Page;
+  42  | 
+  43  |   readonly browser: Browser;
+  44  | 
+  45  |   settings: SessionSettings | undefined;
+  46  | 
+  47  |   initParameters: InitParameters;
+  48  | 
+  49  |   username: string;
+  50  | 
+  51  |   meetingId: string;
+  52  | 
+  53  |   constructor({ browser, page }: PageProps) {
+  54  |     this.browser = browser;
+  55  |     this.page = page;
+  56  |     this.username = '';
+  57  |     this.meetingId = '';
+  58  |     this.initParameters = { ...parameters };
+  59  |   }
+  60  | 
+  61  |   async init({ isModerator, shouldCloseAudioModal, initOptions = {} }: InitFunctionParameters) {
+  62  |     const {
+  63  |       fullName,
+  64  |       createParameter,
+  65  |       joinParameter,
+  66  |       skipSessionDetailsModal = true,
+  67  |       shouldCheckAllInitialSteps = true,
+  68  |     } = initOptions;
+  69  | 
+  70  |     if (!isModerator) this.initParameters.moderatorPW = '';
+  71  |     this.username = fullName || this.initParameters.fullName;
+  72  | 
+  73  |     this.meetingId = await createMeeting(this.initParameters, createParameter);
+  74  |     const joinUrl = getJoinURL({
+  75  |       meetingID: this.meetingId, isModerator, joinParameter, skipSessionDetailsModal,
+  76  |     });
+  77  |     const response = await this.page.goto(joinUrl);
+  78  |     await expect(response?.ok()).toBeTruthy();
+  79  |     const hasErrorLabel = await this.checkElement(e.errorMessageLabel);
+  80  |     await expect(hasErrorLabel, 'should pass the authentication and the layout element should be displayed').toBeFalsy();
+  81  |     if (shouldCheckAllInitialSteps) {
+  82  |       await this.page.waitForSelector('div#layout', { timeout: ELEMENT_WAIT_EXTRA_LONG_TIME });
+  83  |       this.settings = await generateSettingsData(this.page);
+  84  |       const autoJoinAudioModal = this.settings?.autoJoinAudioModal;
+  85  |       if (shouldCloseAudioModal && autoJoinAudioModal) await this.closeAudioModal();
+  86  |     }
+  87  |     // overwrite for font used in CI
+  88  |     await this.page.addStyleTag({
+  89  |       content: `
+  90  |         body {
+  91  |           font-family: 'Liberation Sans', Arial, sans-serif;
+  92  |         }`,
+  93  |     });
+  94  |   }
+  95  | 
+  96  |   async hasElement(selector: string, description: string, timeout = ELEMENT_WAIT_TIME) {
+  97  |     const locator = this.getLocator(selector);
+> 98  |     await expect(locator, description).toBeVisible({ timeout });
+      |                                        ^ Error: plugin should be listed in the apps gallery
+  99  |   }
+  100 | 
+  101 |   async wasRemoved(selector: string, description: string, timeout = ELEMENT_WAIT_TIME) {
+  102 |     const locator = this.getLocator(selector);
+  103 |     await expect(locator, description).toBeHidden({ timeout });
+  104 |   }
+  105 | 
+  106 |   async checkElement(selector: string, index = 0): Promise<boolean> {
+  107 |     // eslint-disable-next-line @typescript-eslint/no-shadow
+  108 |     return this.page.evaluate(([selector, index]) => {
+  109 |       if (typeof selector !== 'string') throw new Error('Selector must be a string');
+  110 |       const element = document.querySelectorAll(selector);
+  111 |       if (element.length > 0) {
+  112 |         return element[index as number] !== undefined;
+  113 |       }
+  114 |       return false;
+  115 |     }, [selector, index]);
+  116 |   }
+  117 | 
+  118 |   getLocator(selector: string): Locator {
+  119 |     return this.page.locator(selector);
+  120 |   }
+  121 | 
+  122 |   async waitForPluginLogger() {
+  123 |     return this.page.waitForEvent('console', (msg) => msg.text().includes('PluginLogger'));
+  124 |   }
+  125 | 
+  126 |   async hasText(selector: string, text: string, description: string, timeout = ELEMENT_WAIT_TIME) {
+  127 |     const locator = this.getLocator(selector).first();
+  128 |     await expect(locator, description).toContainText(text, { timeout });
+  129 |   }
+  130 | 
+  131 |   async closeAudioModal() {
+  132 |     await this.hasElement(e.audioModal, 'should display the audio modal', ELEMENT_WAIT_EXTRA_LONG_TIME);
+  133 |     await this.page.click(e.closeModal);
+  134 |   }
+  135 | }
+  136 | 
+```
