@@ -1,9 +1,0 @@
-# Page snapshot
-
-```yaml
-- generic [active] [ref=e1]:
-  - iframe [ref=e2]:
-    
-  - iframe [ref=e3]:
-    
-```
