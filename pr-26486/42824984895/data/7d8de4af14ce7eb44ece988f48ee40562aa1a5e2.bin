@@ -1,7 +1,0 @@
-diagram slot
-
-```mermaid
-graph TD
-A[Agenda] --> B{Decision}
-B -->|yes| C[Ship]
-```
