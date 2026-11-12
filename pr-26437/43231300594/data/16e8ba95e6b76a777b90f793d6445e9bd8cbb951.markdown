@@ -1,0 +1,238 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - main [ref=e3]:
+    - document [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - button "Profile" [ref=e10] [cursor=pointer]:
+              - generic [ref=e11]: 
+            - button "Participants" [ref=e12] [cursor=pointer]:
+              - generic [ref=e13]: 
+              - generic [ref=e15]: "2"
+            - button "Messages" [ref=e16] [cursor=pointer]:
+              - generic [ref=e17]: 
+            - button "Shared Notes" [expanded] [ref=e18] [cursor=pointer]:
+              - generic [ref=e19]: 
+          - separator [ref=e20]
+          - generic [ref=e21]:
+            - button "Apps Gallery" [ref=e22] [cursor=pointer]:
+              - generic [ref=e23]: 
+            - button "Breakout Rooms" [ref=e24] [cursor=pointer]:
+              - generic [ref=e25]: 
+            - button "Polling" [ref=e26] [cursor=pointer]:
+              - generic [ref=e27]: 
+            - button "Timer and Stopwatch" [ref=e28] [cursor=pointer]:
+              - generic [ref=e29]: 
+          - separator [ref=e30]
+          - generic [ref=e31]:
+            - button "Learning Analytics Dashboard" [ref=e32] [cursor=pointer]:
+              - generic [ref=e33]: 
+            - button "Settings" [ref=e34] [cursor=pointer]:
+              - generic [ref=e35]: 
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - heading "Shared Notes" [level=2] [ref=e41]
+            - button "Notes options" [ref=e43]:
+              - button "Notes options" [active] [ref=e44] [cursor=pointer]:
+                - generic [ref=e46]: 
+            - button "Minimize Shared Notes" [ref=e48] [cursor=pointer]:
+              - generic [ref=e50]: 
+          - separator [ref=e51]
+          - generic [ref=e54]:
+            - toolbar [ref=e55]:
+              - toolbar [ref=e56]:
+                - button [ref=e57] [cursor=pointer]:
+                  - generic [ref=e58]:
+                    - img [ref=e60]
+                    - img [ref=e65]
+                - button "Bold" [ref=e67] [cursor=pointer]:
+                  - img [ref=e69]
+                - button "Italic" [ref=e71] [cursor=pointer]:
+                  - img [ref=e73]
+                - button "Underline" [ref=e75] [cursor=pointer]:
+                  - img [ref=e77]
+                - button "Strike" [ref=e79] [cursor=pointer]:
+                  - img [ref=e81]
+              - toolbar [ref=e83]:
+                - button "Colors" [ref=e84] [cursor=pointer]:
+                  - generic [ref=e85]:
+                    - generic: A
+                - button "Nest block" [ref=e86] [cursor=pointer]:
+                  - img [ref=e88]
+                - button "Unnest block" [disabled] [ref=e90]:
+                  - img [ref=e92]
+            - textbox [ref=e94]:
+              - generic [ref=e95]:
+                - paragraph [ref=e99]:
+                  - generic [ref=e102]:
+                    - generic [ref=e105] [cursor=pointer]:
+                      - math [ref=e107]:
+                        - generic [ref=e109]:
+                          - generic [ref=e110]: a
+                          - generic [ref=e111]: <
+                          - generic [ref=e112]: b
+                      - generic [ref=e113]:
+                        - generic [ref=e114]: a <
+                        - generic [ref=e115]: b
+                    - generic:
+                      - generic:
+                        - code [ref=e117]: a<b
+                        - button "OK" [ref=e119] [cursor=pointer]:
+                          - text: OK
+                          - img [ref=e120]
+                  - text: then
+                  - generic [ref=e125]:
+                    - button "Add a LaTeX equation" [ref=e126] [cursor=pointer]:
+                      - generic [ref=e127]:
+                        - img [ref=e129]
+                        - paragraph [ref=e133]: Add a LaTeX equation
+                    - generic:
+                      - generic:
+                        - generic [ref=e134]: E = mc^2
+                        - button "OK" [ref=e136] [cursor=pointer]:
+                          - text: OK
+                          - img [ref=e137]
+                  - text: c>d end.
+                - paragraph [ref=e143]:
+                  - generic [ref=e146]:
+                    - button "Invalid equation (click to edit)" [ref=e147] [cursor=pointer]:
+                      - generic [ref=e148]:
+                        - img [ref=e150]
+                        - paragraph [ref=e154]: Invalid equation (click to edit)
+                    - generic:
+                      - generic:
+                        - code [ref=e156]: "\\text{&lt;} <b>"
+                        - button "OK" [ref=e158] [cursor=pointer]:
+                          - text: OK
+                          - img [ref=e159]
+                      - alert [ref=e162]: "KaTeX parse error: Expected 'EOF', got '&' at position 7: \\text{&̲lt;} <b>"
+                - generic [ref=e167]:
+                  - generic [ref=e171] [cursor=pointer]:
+                    - math [ref=e173]:
+                      - generic [ref=e175]:
+                        - generic [ref=e176]: x
+                        - generic [ref=e177]: <
+                        - generic [ref=e178]: "y"
+                        - generic [ref=e179]: a
+                        - generic [ref=e180]: "&"
+                        - generic [ref=e181]: b
+                    - generic [ref=e182]:
+                      - generic [ref=e183]: x <
+                      - generic [ref=e184]: y a&b
+                  - button "OK" [ref=e187] [cursor=pointer]:
+                    - text: OK
+                    - img [ref=e188]
+        - generic [ref=e193]:
+          - generic [ref=e194]:
+            - heading "random-8615446" [level=1] [ref=e197]:
+              - button "random-8615446" [ref=e198] [cursor=pointer]:
+                - generic [ref=e199]: random-8615446
+                - generic [ref=e200]: 
+            - generic [ref=e201]:
+              - heading "Session control" [level=2] [ref=e202]
+              - button "View users' connection status" [ref=e204] [cursor=pointer]
+              - button "Leave" [ref=e213]:
+                - button "Leave" [ref=e214] [cursor=pointer]:
+                  - generic [ref=e215]: 
+              - button "Options" [ref=e216]:
+                - button "Options" [ref=e217] [cursor=pointer]:
+                  - generic [ref=e219]: 
+          - heading "Talking people" [level=2] [ref=e221]
+        - region [ref=e222]:
+          - heading "Presentation area" [level=2] [ref=e223]
+          - generic [ref=e225]:
+            - generic [ref=e226]:
+              - generic [ref=e227]: "Slide content start Welcome To BigBlueButton BigBlueButton is an open source web conferencing system designed for online learning CHAT WEBCAMS AUDIO BREAKOUT ROOMS ! Send public and private \" Hold visual meetings. % Communicate using high ( Form teams of users for messages. quality audio. group work. t POLLING EMOJIS SCREEN SHARING MULTI-USER WHITEBOARD # Poll your users anytime. & Express yourself. $ Share your screen. ' Draw together. For more information visit bigbluebutton.org ➔ Slide content end"
+              - generic [ref=e228]:
+                - button "Undo" [ref=e229] [cursor=pointer]
+                - button "Redo" [ref=e231] [cursor=pointer]
+              - button "Whiteboard Whiteboard options" [ref=e234] [cursor=pointer]:
+                - button "Whiteboard Whiteboard options" [ref=e235]:
+                  - img [ref=e236]
+              - generic [ref=e239]:
+                - generic [ref=e240]:
+                  - img
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic [ref=e245]:
+                            - button "Select — V" [ref=e246] [cursor=pointer]
+                            - button "Hand — H" [ref=e248] [cursor=pointer]
+                            - button "Highlight — ⇧ D" [ref=e250] [cursor=pointer]
+                            - button "Draw — D" [ref=e252] [cursor=pointer]
+                            - button "Eraser — E" [ref=e254] [cursor=pointer]
+                            - button "Arrow — A" [ref=e256] [cursor=pointer]
+                            - button "Text — T" [ref=e258] [cursor=pointer]
+                            - button "Note — N" [ref=e260] [cursor=pointer]
+                            - button "Rectangle — R" [ref=e262] [cursor=pointer]
+                            - button "Ellipse — O" [ref=e264] [cursor=pointer]
+                            - button "More" [ref=e266] [cursor=pointer]
+                            - button "Actions" [ref=e269] [cursor=pointer]
+                          - button "Styles" [ref=e273] [cursor=pointer]
+            - generic [ref=e275]:
+              - generic [ref=e277]:
+                - button "Previous slide" [disabled] [ref=e278] [cursor=pointer]:
+                  - generic [ref=e280]: 
+                - combobox "Skip slide" [ref=e281] [cursor=pointer]:
+                  - option "Slide 1" [selected]
+                  - option "Slide 2"
+                  - option "Slide 3"
+                  - option "Slide 4"
+                  - option "Slide 5"
+                  - option "Slide 6"
+                  - option "Slide 7"
+                  - option "Slide 8"
+                  - option "Slide 9"
+                  - option "Slide 10"
+                  - option "Slide 11"
+                  - option "Slide 12"
+                  - option "Slide 13"
+                  - option "Slide 14"
+                  - option "Slide 15"
+                - button "Next slide (2)" [ref=e282] [cursor=pointer]:
+                  - generic [ref=e284]: 
+              - generic [ref=e285]:
+                - button "Turn multi-user whiteboard on" [ref=e286] [cursor=pointer]:
+                  - generic [ref=e288]: 
+                - generic [ref=e290]:
+                  - button "Zoom out" [ref=e291]:
+                    - button "Zoom out" [disabled] [ref=e292] [cursor=pointer]:
+                      - generic [ref=e294]: 
+                  - button "Reset Zoom" [disabled] [ref=e296]: 100%
+                  - button "Zoom in 125%" [ref=e297]:
+                    - button "Zoom in 125%" [ref=e298] [cursor=pointer]:
+                      - generic [ref=e300]: 
+                - button "Presentation Fit to width" [ref=e301] [cursor=pointer]:
+                  - generic [ref=e303]: 
+        - region "Notifications Alt+T"
+        - region "Actions bar" [ref=e304]:
+          - heading "Actions bar" [level=2] [ref=e305]
+          - generic [ref=e306]:
+            - generic [ref=e307]:
+              - button "Join audio" [ref=e309] [cursor=pointer]:
+                - generic [ref=e311]: 
+              - button "Share webcam" [ref=e313] [cursor=pointer]:
+                - generic [ref=e315]: 
+              - button "Share your screen" [ref=e317] [cursor=pointer]:
+                - generic [ref=e319]: 
+              - button "Share a reaction" [ref=e320]:
+                - button "Share a reaction" [ref=e322] [cursor=pointer]:
+                  - generic [ref=e324]: 
+              - button "Raise your hand" [ref=e325] [cursor=pointer]:
+                - generic [ref=e327]: 
+            - generic [ref=e329]:
+              - button "Minimize presentation" [ref=e330] [cursor=pointer]:
+                - generic [ref=e332]: 
+              - button "Media Area" [ref=e334] [cursor=pointer]:
+                - generic [ref=e336]: 
+  - generic:
+    - tooltip "Notes options":
+      - generic: Notes options
+      - generic:
+        - img
+```
