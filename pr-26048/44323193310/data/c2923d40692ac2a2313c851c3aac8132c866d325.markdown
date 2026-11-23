@@ -1,0 +1,5 @@
+# Page snapshot
+
+```yaml
+- heading "Welcome to BigBlueButton!" [level=1] [ref=e3]
+```
