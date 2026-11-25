@@ -1,0 +1,9 @@
+$$
+\int_0^1 x^2 \, dx = \frac{1}{3}
+$$
+
+```mermaid
+graph TD
+A[Agenda] --> B{Decision}
+B -->|yes| C[Ship]
+```
